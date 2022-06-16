@@ -1,0 +1,501 @@
+Year,Month,Start Station,Start Latitude,Start Longitude,End Station,End Latitude,End Longitude,Occurence,Average Duration,Percentage Member,Location
+2020,september,Parc Jean-Drapeau (Chemin Macdonald),45.5128006,-73.5311159,Parc Jean-Drapeau (Chemin Macdonald),45.5128006,-73.5311159,390,1910.789744,28.97435897,Montreal
+2020,september,Crescent / de Maisonneuve,45.4981116,-73.5776154,Crescent / de Maisonneuve,45.4981116,-73.5776154,365,1016.180822,90.1369863,Montreal
+2020,september,de la Commune / Place Jacques-Cartier,45.5076101,-73.551836,de la Commune / Place Jacques-Cartier,45.5076101,-73.551836,284,1544.626761,16.90140845,Montreal
+2020,september,de la Commune / St-Sulpice,45.5042425,-73.5534695,de la Commune / St-Sulpice,45.5042425,-73.5534695,213,1934.924883,25.35211268,Montreal
+2020,september,Métro Laurier (Rivard / Laurier),45.5276163,-73.5891147,Marquette / Laurier,45.53543,-73.5822,191,323.9895288,94.76439791,Montreal
+2020,september,Marquette / Laurier,45.53543,-73.5822,Métro Laurier (Rivard / Laurier),45.5276163,-73.5891147,183,356.6448087,89.61748634,Montreal
+2020,september,Métro Joliette  (Joliette / Hochelaga),45.5469072,-73.5515571,Aylwin / Ontario,45.5443031,-73.5454725,174,238.2068966,98.27586207,Montreal
+2020,september,Rosemont / Viau,45.5683302,-73.5666633,Rosemont / Viau,45.5683302,-73.5666633,162,1428.858025,42.59259259,Montreal
+2020,september,Métro Joliette  (Joliette / Hochelaga),45.5469072,-73.5515571,Valois / Ontario,45.5470481,-73.5434461,161,277.8509317,95.0310559,Montreal
+2020,september,Parc Jean-Drapeau (Chemin Macdonald),45.5128006,-73.5311159,Parc Plage,45.5026587,-73.5275352,146,1315.164384,35.61643836,Montreal
+2020,september,Parc Père-Marquette (Chambord / Rosemont),45.5370878,-73.5932185,Métro Rosemont (de St-Vallier / Rosemont),45.5319549,-73.5981604,145,303.2206897,97.24137931,Montreal
+2020,september,Métro Verdun (Willibrord / de Verdun),45.4594877,-73.5720921,Argyle / de Verdun,45.4530158,-73.571915,143,229.1468531,90.90909091,Montreal
+2020,september,Argyle / de Verdun,45.4530158,-73.571915,Métro Verdun (Willibrord / de Verdun),45.4594877,-73.5720921,142,244.3169014,97.88732394,Montreal
+2020,september,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,St-Mathieu / Ste-Catherine,45.4936796,-73.5791463,138,391.9347826,96.37681159,Montreal
+2020,september,de la Commune / Berri,45.51086,-73.54983,de la Commune / Berri,45.51086,-73.54983,135,1881.422222,32.59259259,Montreal
+2020,september,Métro Laurier (Rivard / Laurier),45.5276163,-73.5891147,de Lanaudière / Laurier,45.5333136,-73.5837369,135,233.8888889,97.03703704,Montreal
+2020,september,Ontario / Viau,45.5594818,-73.535496,Métro Viau (Pierre-de-Coubertin / Viau),45.5617828,-73.5466111,134,330.5223881,96.26865672,Montreal
+2020,september,de la Commune / St-Sulpice,45.5042425,-73.5534695,de la Commune / Place Jacques-Cartier,45.5076101,-73.551836,133,1638.766917,23.30827068,Montreal
+2020,september,Ryde / Charlevoix,45.4757434,-73.5646007,Métro Charlevoix (Centre / Charlevoix),45.4782279,-73.5696512,128,166.75,96.875,Montreal
+2020,september,Métro Papineau (Cartier / Ste-Catherine),45.52353,-73.55199,Poupart / Ste-Catherine,45.5290021,-73.5461994,127,271.1889764,95.27559055,Montreal
+2020,september,Aylwin / Ontario,45.5443031,-73.5454725,Métro Joliette  (Joliette / Hochelaga),45.5469072,-73.5515571,127,220.7637795,99.21259843,Montreal
+2020,september,Métro Viau (Pierre-de-Coubertin / Viau),45.5617828,-73.5466111,Ontario / Viau,45.5594818,-73.535496,127,360.6299213,88.18897638,Montreal
+2020,september,Métro Georges-Vanier (St-Antoine / Canning),45.4891,-73.57656,des Seigneurs / Notre-Dame,45.4877228,-73.5690826,127,270.4566929,92.12598425,Montreal
+2020,september,Marquette / du Mont-Royal,45.53229,-73.57544,Marquette / Laurier,45.53543,-73.5822,126,247.531746,97.61904762,Montreal
+2020,september,Parc Plage,45.5026587,-73.5275352,Parc Jean-Drapeau (Chemin Macdonald),45.5128006,-73.5311159,125,1192.68,35.2,Montreal
+2020,september,Valois / Ontario,45.5470481,-73.5434461,Métro Joliette  (Joliette / Hochelaga),45.5469072,-73.5515571,125,254.24,92,Montreal
+2020,september,Métro Pie-IX (Pierre-de-Coubertin / Pie-IX),45.5542138,-73.5515597,Desjardins / Ontario,45.5511919,-73.5408725,125,297.808,89.6,Montreal
+2020,september,Métro Laurier (Rivard / Laurier),45.5276163,-73.5891147,Laurier / de Brébeuf,45.532514,-73.5848111,122,233.8114754,96.72131148,Montreal
+2020,september,St-Joseph / 34e avenue Lachine,45.4328398,-73.6934915,St-Joseph / 34e avenue Lachine,45.4328398,-73.6934915,119,1738.12605,27.73109244,Montreal
+2020,september,Parc Jeanne Mance (monument sir George-Etienne Cartier),45.5148399,-73.5847789,Parc Jeanne Mance (monument sir George-Etienne Cartier),45.5148399,-73.5847789,117,1905.307692,60.68376068,Montreal
+2020,september,Marquette / Villeray,45.5507398,-73.6152944,Marquette / Jean-Talon,45.5474078,-73.6076689,116,190.0603448,95.68965517,Montreal
+2020,september,Poupart / Ste-Catherine,45.5290021,-73.5461994,Métro Papineau (Cartier / Ste-Catherine),45.52353,-73.55199,115,365.3913043,95.65217391,Montreal
+2020,september,de Maisonneuve / Greene,45.4869706,-73.5892931,Métro Vendôme (de Marlowe / de Maisonneuve),45.4739303,-73.6047345,115,601.7652174,84.34782609,Montreal
+2020,september,Marquette / Jean-Talon,45.5474078,-73.6076689,Marquette / Villeray,45.5507398,-73.6152944,115,310.1130435,90.43478261,Montreal
+2020,september,St-Joseph / 8e avenue Lachine,45.4314714,-73.671205,St-Joseph / 8e avenue Lachine,45.4314714,-73.671205,114,2338.280702,39.47368421,Montreal
+2020,september,Métro Monk (Allard / Beaulieu),45.4510309,-73.5939011,Hamilton / Jolicoeur,45.4567028,-73.5976427,111,305.5495495,97.2972973,Montreal
+2020,september,St-André / Ste-Catherine,45.5164265,-73.5581124,Atateken / du Square Amherst,45.5206338,-73.563906,108,264.4722222,97.22222222,Montreal
+2020,september,de la Commune / St-Sulpice,45.5042425,-73.5534695,Marché Atwater,45.4802082,-73.5775986,107,1452.934579,45.79439252,Montreal
+2020,september,de Champlain / Ontario,45.5251095,-73.5602058,Métro Papineau (Cartier / Ste-Catherine),45.52353,-73.55199,107,297.1495327,96.26168224,Montreal
+2020,september,La Ronde,45.5215654,-73.5353324,Parc Jean-Drapeau (Chemin Macdonald),45.5128006,-73.5311159,106,1168.179245,36.79245283,Montreal
+2020,september,Marquette / du Mont-Royal,45.53229,-73.57544,Gauthier / Papineau,45.5296663,-73.5673365,105,293.6666667,98.0952381,Montreal
+2020,september,St-Dominique / St-Zotique,45.5322646,-73.6110632,Métro Beaubien (de Chateaubriand / Beaubien),45.53536,-73.6036348,105,295.3047619,100,Montreal
+2020,september,Bennett / Pierre-de-Coubertin,45.5581597,-73.5484001,Bennett / Ste-Catherine,45.5530533,-73.5324275,105,440.2285714,95.23809524,Montreal
+2020,september,Joseph-Manseau / René-Lévesque,45.4916865,-73.5767671,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,104,320.3173077,93.26923077,Montreal
+2020,september,Métro Viau (Pierre-de-Coubertin / Viau),45.5617828,-73.5466111,Bennett / Ste-Catherine,45.5530533,-73.5324275,104,577.4711538,92.30769231,Montreal
+2020,september,Métro Rosemont (de St-Vallier / Rosemont),45.5319549,-73.5981604,Parc Père-Marquette (Chambord / Rosemont),45.5370878,-73.5932185,104,304.1153846,98.07692308,Montreal
+2020,september,Marché Atwater,45.4802082,-73.5775986,de la Commune / St-Sulpice,45.5042425,-73.5534695,103,1335.165049,46.60194175,Montreal
+2020,september,Parc Jean-Drapeau (Chemin Macdonald),45.5128006,-73.5311159,La Ronde,45.5215654,-73.5353324,103,964.8349515,46.60194175,Montreal
+2020,september,Hamilton / Jolicoeur,45.4567028,-73.5976427,Métro Monk (Allard / Beaulieu),45.4510309,-73.5939011,103,238.3009709,94.17475728,Montreal
+2020,september,de Kent / de la Côte-des-Neiges,45.5014493,-73.6330506,Parc Kent (de Kent / Hudson),45.5057209,-73.6294591,101,619.8712871,92.07920792,Montreal
+2020,september,Laurier / de Brébeuf,45.532514,-73.5848111,Métro Laurier (Rivard / Laurier),45.5276163,-73.5891147,100,262.81,94,Montreal
+2020,september,Gary-Carter / St-Laurent,45.5358998,-73.6224425,Gary-Carter / St-Laurent,45.5358998,-73.6224425,100,1743.05,83,Montreal
+2020,september,Place du Commerce,45.46714,-73.54259,Elgar / de l'Île-des-Sœurs,45.4568232,-73.5468042,99,765.4949495,68.68686869,Montreal
+2020,september,Jeanne-Mance / St-Viateur,45.5230265,-73.6018404,Jeanne-Mance / St-Viateur,45.5230265,-73.6018404,98,743.0306122,80.6122449,Montreal
+2020,september,Parc Kent (de Kent / Hudson),45.5057209,-73.6294591,de Kent / de la Côte-des-Neiges,45.5014493,-73.6330506,98,552.2653061,95.91836735,Montreal
+2020,september,Métro Verdun (Willibrord / de Verdun),45.4594877,-73.5720921,Beatty / de Verdun,45.45073,-73.5725749,98,299.4081633,93.87755102,Montreal
+2020,september,Métro Vendôme (de Marlowe / de Maisonneuve),45.4739303,-73.6047345,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,97,804.1030928,82.4742268,Montreal
+2020,september,Marquette / du Mont-Royal,45.53229,-73.57544,Resther / du Mont-Royal,45.5256282,-73.5817748,97,439.1546392,93.81443299,Montreal
+2020,september,de Lanaudière / Laurier,45.5333136,-73.5837369,Métro Laurier (Rivard / Laurier),45.5276163,-73.5891147,97,290.1030928,98.96907216,Montreal
+2020,september,Métro Charlevoix (Centre / Charlevoix),45.4782279,-73.5696512,Ryde / Charlevoix,45.4757434,-73.5646007,97,197.2268041,92.78350515,Montreal
+2020,september,St-Mathieu / Ste-Catherine,45.4936796,-73.5791463,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,96,359.9270833,94.79166667,Montreal
+2020,september,Hickson / Wellington,45.4648925,-73.5669979,Regina / de Verdun,45.467369,-73.570769,96,275.7916667,97.91666667,Montreal
+2020,september,Gauthier / Papineau,45.5296663,-73.5673365,Marquette / du Mont-Royal,45.53229,-73.57544,95,273.4421053,96.84210526,Montreal
+2020,september,Grand Boulevard / Sherbrooke,45.466569,-73.623295,Métro Vendôme (de Marlowe / de Maisonneuve),45.4739303,-73.6047345,95,515.0421053,84.21052632,Montreal
+2020,september,Métro Mont-Royal (Rivard / du Mont-Royal),45.524673,-73.58255,Garnier / du Mont-Royal,45.53092,-73.57674,94,403.2234043,98.93617021,Montreal
+2020,september,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,Métro Vendôme (de Marlowe / de Maisonneuve),45.4739303,-73.6047345,94,766.0851064,88.29787234,Montreal
+2020,september,Duluth / St-Laurent,45.5170456,-73.5792965,St-Hubert / Duluth,45.5224257,-73.5741842,94,271.4574468,97.87234043,Montreal
+2020,september,Regina / de Verdun,45.467369,-73.570769,Hickson / Wellington,45.4648925,-73.5669979,94,139.3829787,98.93617021,Montreal
+2020,september,de la Commune / St-Sulpice,45.5042425,-73.5534695,de la Commune / Berri,45.51086,-73.54983,93,923.0645161,45.16129032,Montreal
+2020,september,Métro Mont-Royal (Rivard / du Mont-Royal),45.524673,-73.58255,Métro Mont-Royal (Rivard / du Mont-Royal),45.524673,-73.58255,93,958.6774194,86.02150538,Montreal
+2020,september,Métro Préfontaine (Moreau / Hochelaga),45.5412155,-73.5537136,Dézéry / Ontario,45.5409579,-73.5470295,93,224.3655914,96.77419355,Montreal
+2020,september,Métro Pie-IX (Pierre-de-Coubertin / Pie-IX),45.5542138,-73.5515597,Jeanne-d'Arc / Ontario,45.5495977,-73.5418743,93,392.2795699,94.62365591,Montreal
+2020,september,des Seigneurs / Notre-Dame,45.4877228,-73.5690826,Métro Georges-Vanier (St-Antoine / Canning),45.4891,-73.57656,93,278.0752688,89.24731183,Montreal
+2020,september,Chomedey / de Maisonneuve,45.4918003,-73.5840064,Métro Vendôme (de Marlowe / de Maisonneuve),45.4739303,-73.6047345,92,814.7391304,84.7826087,Montreal
+2020,september,de Brébeuf / du Mont-Royal,45.5294078,-73.5781538,Laurier / de Brébeuf,45.532514,-73.5848111,92,290.6304348,93.47826087,Montreal
+2020,september,Métro Pie-IX (Pierre-de-Coubertin / Pie-IX),45.5542138,-73.5515597,de la Salle / Ste-Catherine,45.5499633,-73.5344338,92,457.6304348,91.30434783,Montreal
+2020,september,St-André / Ste-Catherine,45.5164265,-73.5581124,Métro Papineau (Cartier / Ste-Catherine),45.52353,-73.55199,92,376.9347826,98.91304348,Montreal
+2020,september,Métro Vendôme (de Marlowe / de Maisonneuve),45.4739303,-73.6047345,de Maisonneuve / Greene,45.4869706,-73.5892931,91,606.1098901,91.20879121,Montreal
+2020,september,St-Mathieu / Ste-Catherine,45.4936796,-73.5791463,Joseph-Manseau / René-Lévesque,45.4916865,-73.5767671,91,198.021978,91.20879121,Montreal
+2020,september,Pontiac / Gilford,45.5270093,-73.585766,Gilford / de Lanaudière,45.532008,-73.5804445,91,239.2087912,98.9010989,Montreal
+2020,september,Bourgeoys / Favard,45.4799304,-73.555921,Métro Charlevoix (Centre / Charlevoix),45.4782279,-73.5696512,91,387.1428571,97.8021978,Montreal
+2020,september,Atateken / du Square Amherst,45.5206338,-73.563906,St-André / Ste-Catherine,45.5164265,-73.5581124,90,268.4555556,100,Montreal
+2020,september,de la Côte St-Antoine / Royal,45.468927,-73.6198702,Métro Vendôme (de Marlowe / de Maisonneuve),45.4739303,-73.6047345,90,430.9888889,80,Montreal
+2020,september,Marché Atwater,45.4802082,-73.5775986,de la Commune / Place Jacques-Cartier,45.5076101,-73.551836,90,1573.077778,48.88888889,Montreal
+2020,september,Marché Atwater,45.4802082,-73.5775986,de la Côte St-Paul / St-Ambroise,45.4676657,-73.5939178,90,854.3111111,66.66666667,Montreal
+2020,september,Léa-Roback / Sir-Georges-Etienne-Cartier,45.4716686,-73.5826439,Marché Atwater,45.4802082,-73.5775986,90,722.1555556,64.44444444,Montreal
+2020,september,Gilford / de Lanaudière,45.532008,-73.5804445,Pontiac / Gilford,45.5270093,-73.585766,89,243.0449438,97.75280899,Montreal
+2020,september,Beatty / de Verdun,45.45073,-73.5725749,Métro Verdun (Willibrord / de Verdun),45.4594877,-73.5720921,89,289.741573,88.76404494,Montreal
+2020,september,McLynn / Plamondon,45.4891131,-73.6470129,McLynn / Plamondon,45.4891131,-73.6470129,88,1472.318182,69.31818182,Montreal
+2020,september,Elgar / de l'Île-des-Sœurs,45.4568232,-73.5468042,Place du Commerce,45.46714,-73.54259,88,579.1704545,64.77272727,Montreal
+2020,september,Métro Mont-Royal (Rivard / du Mont-Royal),45.524673,-73.58255,Marquette / du Mont-Royal,45.53229,-73.57544,87,440.2873563,96.55172414,Montreal
+2020,september,des Bassins / Richmond,45.4876991,-73.564893,Marché Atwater,45.4802082,-73.5775986,87,868.045977,60.91954023,Montreal
+2020,september,Marquette / Laurier,45.53543,-73.5822,Marquette / du Mont-Royal,45.53229,-73.57544,86,231.5581395,88.37209302,Montreal
+2020,september,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,86,895.127907,84.88372093,Montreal
+2020,september,Bennett / Ste-Catherine,45.5530533,-73.5324275,Bennett / Pierre-de-Coubertin,45.5581597,-73.5484001,86,416.1395349,98.8372093,Montreal
+2020,september,Shearer / Centre,45.4828251,-73.5620633,Métro Charlevoix (Centre / Charlevoix),45.4782279,-73.5696512,86,278.9651163,97.6744186,Montreal
+2020,september,de la Commune / Place Jacques-Cartier,45.5076101,-73.551836,de la Commune / St-Sulpice,45.5042425,-73.5534695,85,1299.011765,34.11764706,Montreal
+2020,september,Émile-Duployé / Sherbrooke,45.5272931,-73.5648072,Marquette / du Mont-Royal,45.53229,-73.57544,85,281.4470588,97.64705882,Montreal
+2020,september,Métro de l'Église (Ross / de l'Église),45.462846,-73.5659216,de l'Église / Bannantyne,45.4632535,-73.5758793,85,306.1529412,95.29411765,Montreal
+2020,september,de la Côte St-Paul / St-Ambroise,45.4676657,-73.5939178,Marché Atwater,45.4802082,-73.5775986,85,797.9647059,78.82352941,Montreal
+2020,september,Métro Papineau (Cartier / Ste-Catherine),45.52353,-73.55199,de Champlain / Ontario,45.5251095,-73.5602058,84,370.0357143,98.80952381,Montreal
+2020,september,Marquette / du Mont-Royal,45.53229,-73.57544,Marquette / du Mont-Royal,45.53229,-73.57544,84,940.9642857,92.85714286,Montreal
+2020,september,Parc St-Paul (Le Caron / Marc-Sauvalle),45.461765,-73.5842116,Métro Jolicoeur (de Sève / Drake),45.4560855,-73.5819371,84,294.047619,94.04761905,Montreal
+2020,september,de la Commune / Berri,45.51086,-73.54983,de la Commune / St-Sulpice,45.5042425,-73.5534695,83,642.4578313,55.42168675,Montreal
+2020,september,Normand / Marguerite-d’Youville,45.4997767,-73.5541052,Marché Atwater,45.4802082,-73.5775986,83,1169.963855,42.1686747,Montreal
+2020,september,Chomedey / de Maisonneuve,45.4918003,-73.5840064,Métro Peel (de Maisonneuve / Stanley),45.50038,-73.57507,83,484.5542169,87.95180723,Montreal
+2020,september,Métro Villa-Maria (de Monkland / Décarie),45.4789684,-73.6195993,de Hampton / de Monkland,45.4711793,-73.6270022,83,273.373494,84.3373494,Montreal
+2020,september,de Kent / de la Côte-des-Neiges,45.5014493,-73.6330506,de Kent / Victoria,45.494564,-73.638702,83,475.7951807,89.15662651,Montreal
+2020,september,Ste-Émilie / Sir-Georges-Etienne-Cartier,45.472668,-73.5853898,Marché Atwater,45.4802082,-73.5775986,83,606.8072289,74.69879518,Montreal
+2020,september,Parc Jean-Drapeau (Chemin Macdonald),45.5128006,-73.5311159,Casino de Montréal,45.5063732,-73.5245767,83,791.8072289,65.06024096,Montreal
+2020,september,St-Mathieu / Ste-Catherine,45.4936796,-73.5791463,Mackay / René-Lévesque,45.494435,-73.5740983,82,308.2926829,98.7804878,Montreal
+2020,september,Marquette / Rachel,45.5298016,-73.5702896,Marquette / du Mont-Royal,45.53229,-73.57544,82,189.9268293,100,Montreal
+2020,september,St-Mathieu / Ste-Catherine,45.4936796,-73.5791463,Crescent / de Maisonneuve,45.4981116,-73.5776154,81,396.5802469,96.2962963,Montreal
+2020,september,Métro Papineau (Cartier / Ste-Catherine),45.52353,-73.55199,Dorion / Ontario,45.5269913,-73.5582116,80,446.5875,86.25,Montreal
+2020,september,Marquette / du Mont-Royal,45.53229,-73.57544,Métro Mont-Royal (Rivard / du Mont-Royal),45.524673,-73.58255,80,476.3875,83.75,Montreal
+2020,september,McLynn / Plamondon,45.4891131,-73.6470129,Édouard-Montpetit / de Stirling,45.50723,-73.615085,80,449.425,83.75,Montreal
+2020,september,Métro Verdun (Willibrord / de Verdun),45.4594877,-73.5720921,Natatorium (LaSalle / Rolland),45.444547,-73.5750908,80,459.875,93.75,Montreal
+2020,september,Métro Parc  (Hutchison / Ogilvy),45.5303513,-73.6243924,Ball / Querbes,45.5311775,-73.632136,80,264.925,83.75,Montreal
+2020,september,Fortune / Wellington,45.477923,-73.559038,Métro Charlevoix (Centre / Charlevoix),45.4782279,-73.5696512,80,397.0875,91.25,Montreal
+2020,september,Marquette / du Mont-Royal,45.53229,-73.57544,Marquette / Rachel,45.5298016,-73.5702896,79,259.5443038,98.73417722,Montreal
+2020,september,de Melrose / Sherbrooke,45.4698198,-73.6169614,Métro Vendôme (de Marlowe / de Maisonneuve),45.4739303,-73.6047345,79,428.0759494,75.94936709,Montreal
+2020,september,Métro Jolicoeur (de Sève / Drake),45.4560855,-73.5819371,Parc St-Paul (Le Caron / Marc-Sauvalle),45.461765,-73.5842116,79,354.2531646,94.93670886,Montreal
+2020,september,Métro Vendôme (de Marlowe / de Maisonneuve),45.4739303,-73.6047345,Victoria / de Maisonneuve,45.4774286,-73.6001694,78,261.3205128,92.30769231,Montreal
+2020,september,des Bassins / du Séminaire,45.4905646,-73.5603333,Marché Atwater,45.4802082,-73.5775986,78,739.9230769,64.1025641,Montreal
+2020,september,Dorion / Ontario,45.5269913,-73.5582116,Métro Papineau (Cartier / Ste-Catherine),45.52353,-73.55199,78,341.7435897,98.71794872,Montreal
+2020,september,Garnier / du Mont-Royal,45.53092,-73.57674,Resther / du Mont-Royal,45.5256282,-73.5817748,78,299.9871795,96.15384615,Montreal
+2020,september,Resther / du Mont-Royal,45.5256282,-73.5817748,Marquette / du Mont-Royal,45.53229,-73.57544,78,441.3846154,96.15384615,Montreal
+2020,september,Métro Viau (Pierre-de-Coubertin / Viau),45.5617828,-73.5466111,Ontario / Sicard,45.5562619,-73.5374406,78,409.0897436,85.8974359,Montreal
+2020,september,Victoria / de Maisonneuve,45.4774286,-73.6001694,Métro Vendôme (de Marlowe / de Maisonneuve),45.4739303,-73.6047345,78,297.6794872,92.30769231,Montreal
+2020,september,Victoria / de Maisonneuve,45.4774286,-73.6001694,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,78,550.1153846,85.8974359,Montreal
+2020,september,Léa-Roback / Sir-Georges-Etienne-Cartier,45.4716686,-73.5826439,Léa-Roback / Sir-Georges-Etienne-Cartier,45.4716686,-73.5826439,78,1533.141026,53.84615385,Montreal
+2020,september,de Normanville / Villeray,45.5471698,-73.618041,Garnier / Everett,45.5476247,-73.6120248,78,197.2051282,100,Montreal
+2020,september,Crescent / de Maisonneuve,45.4981116,-73.5776154,St-Mathieu / Ste-Catherine,45.4936796,-73.5791463,77,806.2987013,97.4025974,Montreal
+2020,september,Métro Mont-Royal (Rivard / du Mont-Royal),45.524673,-73.58255,des Érables / du Mont-Royal,45.5358535,-73.5720545,77,629.8571429,80.51948052,Montreal
+2020,september,St-Dominique / du Mont-Royal,45.5205595,-73.5858203,Métro Mont-Royal (Rivard / du Mont-Royal),45.524673,-73.58255,77,643.987013,87.01298701,Montreal
+2020,september,St-Dominique / Laurier,45.5236149,-73.5924574,Laurier / de Brébeuf,45.532514,-73.5848111,77,459.8311688,80.51948052,Montreal
+2020,september,Young / Wellington,45.4928253,-73.5579783,Young / Wellington,45.4928253,-73.5579783,77,997.1298701,77.92207792,Montreal
+2020,september,Pontiac / Gilford,45.5270093,-73.585766,Gilford / de Brébeuf,45.5308162,-73.581626,76,198.4868421,100,Montreal
+2020,september,Wurtele / de Rouen,45.5376278,-73.5533944,Métro Frontenac (Ontario / du Havre),45.533706,-73.5521793,76,227.9605263,98.68421053,Montreal
+2020,september,Métro Pie-IX (Pierre-de-Coubertin / Pie-IX),45.5542138,-73.5515597,Bennett / Ste-Catherine,45.5530533,-73.5324275,76,527.6052632,93.42105263,Montreal
+2020,september,Jogues / Allard,45.4500203,-73.6003062,Métro Monk (Allard / Beaulieu),45.4510309,-73.5939011,76,282.3684211,90.78947368,Montreal
+2020,september,Jean Langlois / Fullum,45.5265,-73.5457528,Métro Papineau (Cartier / Ste-Catherine),45.52353,-73.55199,76,406.0394737,97.36842105,Montreal
+2020,september,Métro Charlevoix (Centre / Charlevoix),45.4782279,-73.5696512,Augustin-Cantin / Shearer,45.4839017,-73.5636324,76,294.9868421,90.78947368,Montreal
+2020,september,Métro Charlevoix (Centre / Charlevoix),45.4782279,-73.5696512,Bourgeoys / Favard,45.4799304,-73.555921,76,364.9210526,90.78947368,Montreal
+2020,september,Dorion / Ontario,45.5269913,-73.5582116,Poupart / Ontario,45.5319389,-73.5534386,75,213.4533333,97.33333333,Montreal
+2020,september,Métro Laurier (Rivard / Laurier),45.5276163,-73.5891147,Jeanne-Mance / Laurier,45.5202763,-73.5949762,75,395.7733333,88,Montreal
+2020,september,Marquette / Laurier,45.53543,-73.5822,Laurier / de Brébeuf,45.532514,-73.5848111,75,253.5333333,98.66666667,Montreal
+2020,september,Melville / de Maisonneuve,45.4818402,-73.595379,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,75,624.2533333,70.66666667,Montreal
+2020,september,Tupper / du Fort,45.4912296,-73.5807824,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,75,260.6,96,Montreal
+2020,september,Métro Laurier (Rivard / Laurier),45.5276163,-73.5891147,de Bordeaux / Masson,45.5389844,-73.5824454,74,392.8108108,93.24324324,Montreal
+2020,september,St-Christophe / Cherrier,45.5203683,-73.5684228,St-Christophe / Cherrier,45.5203683,-73.5684228,74,2261.864865,95.94594595,Montreal
+2020,september,d'Orléans / Masson,45.557192,-73.569847,Métro Pie-IX (Pierre-de-Coubertin / Pie-IX),45.5542138,-73.5515597,74,491.7162162,89.18918919,Montreal
+2020,september,Métro Préfontaine (Moreau / Hochelaga),45.5412155,-73.5537136,Ste-Catherine / Dezery,45.5393851,-73.5409999,74,322.9459459,94.59459459,Montreal
+2020,september,Natatorium (LaSalle / Rolland),45.444547,-73.5750908,Métro Verdun (Willibrord / de Verdun),45.4594877,-73.5720921,74,654.5810811,77.02702703,Montreal
+2020,september,Benny / Sherbrooke,45.464877,-73.6265972,Métro Vendôme (de Marlowe / de Maisonneuve),45.4739303,-73.6047345,74,622.6756757,74.32432432,Montreal
+2020,september,de la Commune / Berri,45.51086,-73.54983,de la Commune / Place Jacques-Cartier,45.5076101,-73.551836,73,1271.945205,26.02739726,Montreal
+2020,september,St-Mathieu / Ste-Catherine,45.4936796,-73.5791463,Métro Peel (de Maisonneuve / Stanley),45.50038,-73.57507,73,402.6712329,89.04109589,Montreal
+2020,september,Ann / Wellington,45.4945271,-73.5567525,des Récollets / McGill,45.5008765,-73.5590056,73,344.6849315,98.63013699,Montreal
+2020,september,Laurier / de Brébeuf,45.532514,-73.5848111,de Brébeuf / du Mont-Royal,45.5294078,-73.5781538,73,270.6849315,91.78082192,Montreal
+2020,september,Métro Mont-Royal (Rivard / du Mont-Royal),45.524673,-73.58255,du Mont-Royal / Clark,45.51941,-73.58685,73,527.6027397,95.89041096,Montreal
+2020,september,Marché Atwater,45.4802082,-73.5775986,Léa-Roback / Sir-Georges-Etienne-Cartier,45.4716686,-73.5826439,73,1231.164384,53.42465753,Montreal
+2020,september,Métro Lasalle (de Rushbrooke / Caisse),45.4706964,-73.5654224,Regina / de Verdun,45.467369,-73.570769,73,326.5068493,86.30136986,Montreal
+2020,september,Place du Commerce,45.46714,-73.54259,Berlioz / de l'Île des Soeurs,45.4599858,-73.5439557,73,702.0684932,80.82191781,Montreal
+2020,september,Richardson / de Montmorency,45.4849802,-73.5603333,Métro Charlevoix (Centre / Charlevoix),45.4782279,-73.5696512,73,487.3150685,82.19178082,Montreal
+2020,september,Tupper / du Fort,45.4912296,-73.5807824,Mackay / René-Lévesque,45.494435,-73.5740983,73,419.2054795,100,Montreal
+2020,september,Métro Charlevoix (Centre / Charlevoix),45.4782279,-73.5696512,Shearer / Centre,45.4828251,-73.5620633,73,295.6027397,91.78082192,Montreal
+2020,september,Métro Peel (de Maisonneuve / Stanley),45.50038,-73.57507,Chomedey / de Maisonneuve,45.4918003,-73.5840064,72,545.6666667,91.66666667,Montreal
+2020,september,Marquette / Rachel,45.5298016,-73.5702896,Métro Mont-Royal (Rivard / du Mont-Royal),45.524673,-73.58255,72,432.0138889,95.83333333,Montreal
+2020,september,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,Métro Guy-Concordia (Guy / St-Catherine),45.4949815,-73.5777327,72,528.1944444,91.66666667,Montreal
+2020,september,Roy / St-Laurent,45.5156162,-73.5758083,Roy / St-Denis,45.51908,-73.5727,72,151.7083333,95.83333333,Montreal
+2020,september,Jean-Brillant / de la Côte-des-Neiges,45.495415,-73.6223406,Ellendale / de la Côte-des-Neiges,45.499757,-73.629298,72,289.75,90.27777778,Montreal
+2020,september,12e avenue / St-Zotique,45.5568667,-73.5893065,Métro St-Michel (Shaughnessy / St-Michel),45.559199,-73.599658,72,403.3888889,44.44444444,Montreal
+2020,september,Marché Maisonneuve,45.5532188,-73.5397822,Métro Pie-IX (Pierre-de-Coubertin / Pie-IX),45.5542138,-73.5515597,72,519.9027778,94.44444444,Montreal
+2020,september,Marché Atwater,45.4802082,-73.5775986,des Bassins / du Séminaire,45.4905646,-73.5603333,72,758.4583333,66.66666667,Montreal
+2020,september,de Kent / Victoria,45.494564,-73.638702,de Kent / de la Côte-des-Neiges,45.5014493,-73.6330506,72,573.6944444,86.11111111,Montreal
+2020,september,de la Commune / Place Jacques-Cartier,45.5076101,-73.551836,Marché Atwater,45.4802082,-73.5775986,71,1671.901408,49.29577465,Montreal
+2020,september,des Bassins / du Séminaire,45.4905646,-73.5603333,de la Commune / St-Sulpice,45.5042425,-73.5534695,71,732.1830986,69.01408451,Montreal
+2020,september,Gauthier / Parthenais,45.5329263,-73.5637799,des Érables / du Mont-Royal,45.5358535,-73.5720545,71,246.3521127,97.18309859,Montreal
+2020,september,Clark / Rachel,45.5173538,-73.5821289,du Mont-Royal / Clark,45.51941,-73.58685,71,208.4507042,97.18309859,Montreal
+2020,september,Pontiac / Gilford,45.5270093,-73.585766,Fullum / Gilford,45.5392237,-73.5738368,71,543.084507,95.77464789,Montreal
+2020,september,Milton / Durocher,45.508141,-73.5749298,Prince-Arthur / du Parc,45.51059,-73.57547,71,213.9577465,95.77464789,Montreal
+2020,september,Métro Lasalle (de Rushbrooke / Caisse),45.4706964,-73.5654224,Place du Commerce,45.46714,-73.54259,71,712.3521127,97.18309859,Montreal
+2020,september,Métro Monk (Allard / Beaulieu),45.4510309,-73.5939011,Jogues / Allard,45.4500203,-73.6003062,71,301.8309859,90.14084507,Montreal
+2020,september,St-André / St-Antoine,45.5141145,-73.5526447,Métro Champ-de-Mars (Viger / Sanguinet),45.5101628,-73.5566371,70,176.9571429,100,Montreal
+2020,september,Métro Vendôme (de Marlowe / de Maisonneuve),45.4739303,-73.6047345,Grand Boulevard / Sherbrooke,45.466569,-73.623295,70,613.4285714,85.71428571,Montreal
+2020,september,des Érables / du Mont-Royal,45.5358535,-73.5720545,Gauthier / Parthenais,45.5329263,-73.5637799,70,255.5285714,98.57142857,Montreal
+2020,september,Garnier / du Mont-Royal,45.53092,-73.57674,Métro Mont-Royal (Rivard / du Mont-Royal),45.524673,-73.58255,70,399.6285714,98.57142857,Montreal
+2020,september,Roy / St-Denis,45.51908,-73.5727,Roy / St-Laurent,45.5156162,-73.5758083,70,196.8571429,90,Montreal
+2020,september,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,Métro Peel (de Maisonneuve / Stanley),45.50038,-73.57507,70,661.3285714,87.14285714,Montreal
+2020,september,Marché Atwater,45.4802082,-73.5775986,Ste-Émilie / Sir-Georges-Etienne-Cartier,45.472668,-73.5853898,70,480.1714286,70,Montreal
+2020,september,Cartier / Masson,45.5380207,-73.5835236,Cartier / Masson,45.5380207,-73.5835236,70,1177.1,94.28571429,Montreal
+2020,september,Mackay / René-Lévesque,45.494435,-73.5740983,Mackay / René-Lévesque,45.494435,-73.5740983,69,861.0434783,82.60869565,Montreal
+2020,september,St-Mathieu / Ste-Catherine,45.4936796,-73.5791463,Drummond / Ste-Catherine,45.4986393,-73.5742271,69,437.1014493,92.75362319,Montreal
+2020,september,Métro Papineau (Cartier / Ste-Catherine),45.52353,-73.55199,St-André / Ste-Catherine,45.5164265,-73.5581124,69,422.0144928,97.10144928,Montreal
+2020,september,Gilford / de Brébeuf,45.5308162,-73.581626,Pontiac / Gilford,45.5270093,-73.585766,69,165.2608696,97.10144928,Montreal
+2020,september,Métro Mont-Royal (Rivard / du Mont-Royal),45.524673,-73.58255,de Mentana / Rachel,45.5249632,-73.5755588,69,377.942029,94.20289855,Montreal
+2020,september,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,Atwater / Greene,45.4804951,-73.5778266,69,564.7681159,75.36231884,Montreal
+2020,september,Duluth / St-Laurent,45.5170456,-73.5792965,Duluth / St-Denis,45.5208869,-73.5757184,69,178.6086957,97.10144928,Montreal
+2020,september,du Mont-Royal / Clark,45.51941,-73.58685,Métro Mont-Royal (Rivard / du Mont-Royal),45.524673,-73.58255,69,377.4347826,89.85507246,Montreal
+2020,september,Parc Kent (de Kent / Hudson),45.5057209,-73.6294591,de Kent / Victoria,45.494564,-73.638702,69,367.3333333,92.75362319,Montreal
+2020,september,St-Dominique / St-Zotique,45.5322646,-73.6110632,Boyer / St-Zotique,45.53848,-73.60556,69,275.3043478,97.10144928,Montreal
+2020,september,10e avenue / Masson,45.5503765,-73.5737336,1ère avenue / Masson,45.5451997,-73.5764507,69,253.1014493,98.55072464,Montreal
+2020,september,St-Philippe / St-Jacques,45.4768907,-73.5881113,de la Côte St-Paul / St-Ambroise,45.4676657,-73.5939178,69,506.2318841,75.36231884,Montreal
+2020,september,Aylwin / Ontario,45.5443031,-73.5454725,Wurtele / de Rouen,45.5376278,-73.5533944,69,389.8695652,97.10144928,Montreal
+2020,september,Hillside / Ste-Catherine,45.482826,-73.5908434,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,69,368.2173913,95.65217391,Montreal
+2020,september,Léa-Roback / Sir-Georges-Etienne-Cartier,45.4716686,-73.5826439,St-Joseph / 8e avenue Lachine,45.4314714,-73.671205,69,2485.376812,59.42028986,Montreal
+2020,september,Bennett / Pierre-de-Coubertin,45.5581597,-73.5484001,Métro Pie-IX (Pierre-de-Coubertin / Pie-IX),45.5542138,-73.5515597,69,223.9855072,88.4057971,Montreal
+2020,september,Métro Peel (de Maisonneuve / Stanley),45.50038,-73.57507,St-Mathieu / Ste-Catherine,45.4936796,-73.5791463,68,513.4264706,91.17647059,Montreal
+2020,september,St-Mathieu / Ste-Catherine,45.4936796,-73.5791463,St-Mathieu / Ste-Catherine,45.4936796,-73.5791463,68,938.6029412,89.70588235,Montreal
+2020,september,Marquette / du Mont-Royal,45.53229,-73.57544,Émile-Duployé / Sherbrooke,45.5272931,-73.5648072,68,276.6323529,97.05882353,Montreal
+2020,september,Jeanne-Mance / Bernard,45.5244504,-73.6051744,Jeanne-Mance / Bernard,45.5244504,-73.6051744,68,1152.294118,75,Montreal
+2020,september,Young / Wellington,45.4928253,-73.5579783,des Bassins / Richmond,45.4876991,-73.564893,68,358.3676471,80.88235294,Montreal
+2020,september,Garnier / Everett,45.5476247,-73.6120248,de Normanville / Villeray,45.5471698,-73.618041,68,216.6764706,100,Montreal
+2020,september,Bennett / Ste-Catherine,45.5530533,-73.5324275,Métro Viau (Pierre-de-Coubertin / Viau),45.5617828,-73.5466111,68,613.2794118,97.05882353,Montreal
+2020,september,Notre-Dame / Liébert,45.5928026,-73.5104656,Notre-Dame / Liébert,45.5928026,-73.5104656,68,1885.955882,61.76470588,Montreal
+2020,september,Bennett / Pierre-de-Coubertin,45.5581597,-73.5484001,Valois / Ontario,45.5470481,-73.5434461,68,492.4558824,95.58823529,Montreal
+2020,september,Fullum / Sherbrooke,45.533924,-73.562425,Fullum / Marie-Anne,45.5365054,-73.5680392,67,224.7164179,100,Montreal
+2020,september,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,Joseph-Manseau / René-Lévesque,45.4916865,-73.5767671,67,376.5671642,100,Montreal
+2020,september,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,Mackay / de Maisonneuve,45.4968299,-73.5791302,67,460.0746269,83.58208955,Montreal
+2020,september,Prince-Arthur / du Parc,45.51059,-73.57547,Milton / Durocher,45.508141,-73.5749298,67,182.4776119,98.50746269,Montreal
+2020,september,Métro Sauvé (Berri / Sauvé),45.5506921,-73.6563671,Clark / Fleury,45.5476576,-73.6655617,67,376.7164179,94.02985075,Montreal
+2020,september,19e avenue / St-Zotique,45.561594,-73.585643,Métro St-Michel (Shaughnessy / St-Michel),45.559199,-73.599658,67,441.8656716,100,Montreal
+2020,september,Métro Angrignon (Lamont /  des Trinitaires),45.4470592,-73.6022951,Cégep André-Laurendeau,45.4356758,-73.6054748,67,604.0298507,85.07462687,Montreal
+2020,september,de la Commune / Place Jacques-Cartier,45.5076101,-73.551836,de la Commune / Berri,45.51086,-73.54983,66,1136.545455,43.93939394,Montreal
+2020,september,des Récollets / McGill,45.5008765,-73.5590056,Ann / Wellington,45.4945271,-73.5567525,66,317.0151515,96.96969697,Montreal
+2020,september,Marquette / du Mont-Royal,45.53229,-73.57544,des Érables / du Mont-Royal,45.5358535,-73.5720545,66,319.6666667,93.93939394,Montreal
+2020,september,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,Victoria / de Maisonneuve,45.4774286,-73.6001694,66,595.8787879,83.33333333,Montreal
+2020,september,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,Tupper / du Fort,45.4912296,-73.5807824,66,437.0909091,92.42424242,Montreal
+2020,september,de Bordeaux / Masson,45.5389844,-73.5824454,Chabot / du Mont-Royal,45.5341851,-73.5735887,66,251.2272727,96.96969697,Montreal
+2020,september,Hutchison / Van Horne,45.5249419,-73.6106059,Hutchison / Van Horne,45.5249419,-73.6106059,66,1324.166667,92.42424242,Montreal
+2020,september,Jeanne-Mance / Bernard,45.5244504,-73.6051744,Jeanne-Mance / St-Viateur,45.5230265,-73.6018404,66,507.2878788,92.42424242,Montreal
+2020,september,Bloomfield / Bernard,45.5204578,-73.6082724,St-Cyril / Wiseman,45.5208548,-73.6157396,66,357.4545455,96.96969697,Montreal
+2020,september,Léa-Roback / Sir-Georges-Etienne-Cartier,45.4716686,-73.5826439,de la Commune / St-Sulpice,45.5042425,-73.5534695,66,1405.136364,54.54545455,Montreal
+2020,september,Édouard-Montpetit / de Stirling,45.50723,-73.615085,McLynn / Plamondon,45.4891131,-73.6470129,66,572.9848485,75.75757576,Montreal
+2020,september,Chomedey / de Maisonneuve,45.4918003,-73.5840064,Drummond / de Maisonneuve,45.49947,-73.57591,65,450,90.76923077,Montreal
+2020,september,Parc Plage,45.5026587,-73.5275352,Parc Plage,45.5026587,-73.5275352,65,1917.030769,27.69230769,Montreal
+2020,september,Parthenais / Ste-Catherine,45.5260059,-73.5488641,St-André / Ste-Catherine,45.5164265,-73.5581124,65,494.9384615,96.92307692,Montreal
+2020,september,Parc Jeanne-Mance (du Mont-Royal / du Parc),45.517,-73.589,du Mont-Royal / Clark,45.51941,-73.58685,65,181.4923077,90.76923077,Montreal
+2020,september,Park Row O / Sherbrooke,45.4607294,-73.6340725,Métro Vendôme (de Marlowe / de Maisonneuve),45.4739303,-73.6047345,65,866.5230769,76.92307692,Montreal
+2020,september,des Bassins / Richmond,45.4876991,-73.564893,de la Commune / Place Jacques-Cartier,45.5076101,-73.551836,65,1171.892308,47.69230769,Montreal
+2020,september,Métro Vendôme (de Marlowe / de Maisonneuve),45.4739303,-73.6047345,Chomedey / de Maisonneuve,45.4918003,-73.5840064,64,846.421875,85.9375,Montreal
+2020,september,des Bassins / du Séminaire,45.4905646,-73.5603333,des Bassins / du Séminaire,45.4905646,-73.5603333,64,1795.984375,51.5625,Montreal
+2020,september,de Brébeuf / du Mont-Royal,45.5294078,-73.5781538,Resther / du Mont-Royal,45.5256282,-73.5817748,64,274.328125,100,Montreal
+2020,september,Dézéry / Ontario,45.5409579,-73.5470295,Métro Préfontaine (Moreau / Hochelaga),45.5412155,-73.5537136,64,236.390625,98.4375,Montreal
+2020,september,Desjardins / Ontario,45.5511919,-73.5408725,Métro Pie-IX (Pierre-de-Coubertin / Pie-IX),45.5542138,-73.5515597,64,290.1875,90.625,Montreal
+2020,september,Centre ÉPIC (St-Zotique / 40e avenue),45.574147,-73.5746214,Métro Viau (Pierre-de-Coubertin / Viau),45.5617828,-73.5466111,64,707.890625,100,Montreal
+2020,september,St-Joseph / 8e avenue Lachine,45.4314714,-73.671205,de la Côte St-Paul / St-Ambroise,45.4676657,-73.5939178,64,1927.328125,45.3125,Montreal
+2020,september,St-Joseph / 8e avenue Lachine,45.4314714,-73.671205,St-Joseph / 34e avenue Lachine,45.4328398,-73.6934915,64,1174.078125,43.75,Montreal
+2020,september,Cégep André-Laurendeau,45.4356758,-73.6054748,Métro Angrignon (Lamont /  des Trinitaires),45.4470592,-73.6022951,64,648.71875,92.1875,Montreal
+2020,september,Métro Vendôme (de Marlowe / de Maisonneuve),45.4739303,-73.6047345,Park Row O / Sherbrooke,45.4607294,-73.6340725,63,889.4920635,82.53968254,Montreal
+2020,september,Montcalm / de Maisonneuve,45.5191392,-73.5578656,Montcalm / Ontario,45.521081,-73.5622752,63,276.9365079,95.23809524,Montreal
+2020,september,Dorion / Ontario,45.5269913,-73.5582116,Métro Frontenac (Ontario / du Havre),45.533706,-73.5521793,63,307.7619048,95.23809524,Montreal
+2020,september,de Rouen / Fullum,45.5321632,-73.5585429,Métro Frontenac (Ontario / du Havre),45.533706,-73.5521793,63,223.7142857,100,Montreal
+2020,september,Ann / Wellington,45.4945271,-73.5567525,Ann / Wellington,45.4945271,-73.5567525,63,1462.269841,92.06349206,Montreal
+2020,september,Bloomfield / Bernard,45.5204578,-73.6082724,Jeanne-Mance / St-Viateur,45.5230265,-73.6018404,63,320.984127,96.82539683,Montreal
+2020,september,Wurtele / de Rouen,45.5376278,-73.5533944,Aylwin / Ontario,45.5443031,-73.5454725,63,316.8253968,100,Montreal
+2020,september,Jean-Brillant / de la Côte-des-Neiges,45.495415,-73.6223406,de Kent / de la Côte-des-Neiges,45.5014493,-73.6330506,63,437.6507937,92.06349206,Montreal
+2020,september,Aylwin / Ontario,45.5443031,-73.5454725,Jeanne-d'Arc / Ontario,45.5495977,-73.5418743,63,250.968254,87.3015873,Montreal
+2020,september,Berlioz / de l'Île des Soeurs,45.4599858,-73.5439557,Place du Commerce,45.46714,-73.54259,63,534.952381,87.3015873,Montreal
+2020,september,Melville / de Maisonneuve,45.4818402,-73.595379,Métro Vendôme (de Marlowe / de Maisonneuve),45.4739303,-73.6047345,63,473.3650794,85.71428571,Montreal
+2020,september,Métro Beaubien (de Chateaubriand / Beaubien),45.53536,-73.6036348,St-Dominique / St-Zotique,45.5322646,-73.6110632,63,347.3650794,96.82539683,Montreal
+2020,september,St-Joseph / 34e avenue Lachine,45.4328398,-73.6934915,St-Joseph / 8e avenue Lachine,45.4314714,-73.671205,63,1178.761905,46.03174603,Montreal
+2020,september,Notre-Dame / de la Montagne,45.493029,-73.5648179,des Bassins / du Séminaire,45.4905646,-73.5603333,62,221.9193548,96.77419355,Montreal
+2020,september,Joseph-Manseau / René-Lévesque,45.4916865,-73.5767671,St-Mathieu / Ste-Catherine,45.4936796,-73.5791463,62,261.7580645,90.32258065,Montreal
+2020,september,Lespérance / de Rouen,45.5388145,-73.5526778,Métro Frontenac (Ontario / du Havre),45.533706,-73.5521793,62,223.2258065,95.16129032,Montreal
+2020,september,Métro Laurier (Rivard / Laurier),45.5276163,-73.5891147,St-Dominique / Laurier,45.5236149,-73.5924574,62,239.7741935,95.16129032,Montreal
+2020,september,Jeanne-Mance / St-Viateur,45.5230265,-73.6018404,Bloomfield / Bernard,45.5204578,-73.6082724,62,387.2741935,98.38709677,Montreal
+2020,september,Regina / de Verdun,45.467369,-73.570769,Métro Lasalle (de Rushbrooke / Caisse),45.4706964,-73.5654224,62,293.3870968,88.70967742,Montreal
+2020,september,10e avenue / Masson,45.5503765,-73.5737336,d'Orléans / Masson,45.557192,-73.569847,62,266.8064516,93.5483871,Montreal
+2020,september,Valois / Ontario,45.5470481,-73.5434461,Bennett / Pierre-de-Coubertin,45.5581597,-73.5484001,62,499.3709677,82.25806452,Montreal
+2020,september,Métro Pie-IX (Pierre-de-Coubertin / Pie-IX),45.5542138,-73.5515597,Marché Maisonneuve,45.5532188,-73.5397822,62,393,91.93548387,Montreal
+2020,september,de Maisonneuve / Greene,45.4869706,-73.5892931,Melville / de Maisonneuve,45.4818402,-73.595379,62,279.4354839,85.48387097,Montreal
+2020,september,Casino de Montréal,45.5063732,-73.5245767,Parc Jean-Drapeau (Chemin Macdonald),45.5128006,-73.5311159,62,1019.532258,46.77419355,Montreal
+2020,september,Métro Guy-Concordia (Guy / St-Catherine),45.4949815,-73.5777327,Guy / Notre-Dame,45.4900422,-73.5671112,62,281.2741935,91.93548387,Montreal
+2020,september,Cartier / Masson,45.5380207,-73.5835236,Chabot / du Mont-Royal,45.5341851,-73.5735887,62,439.3709677,96.77419355,Montreal
+2020,september,des Bassins / Richmond,45.4876991,-73.564893,des Bassins / Richmond,45.4876991,-73.564893,62,1562.177419,87.09677419,Montreal
+2020,september,de la Commune / St-Sulpice,45.5042425,-73.5534695,Léa-Roback / Sir-Georges-Etienne-Cartier,45.4716686,-73.5826439,61,1573.803279,45.90163934,Montreal
+2020,september,Métro Laurier (Rivard / Laurier),45.5276163,-73.5891147,Cartier / Masson,45.5380207,-73.5835236,61,431.5245902,90.16393443,Montreal
+2020,september,des Érables / du Mont-Royal,45.5358535,-73.5720545,Marquette / du Mont-Royal,45.53229,-73.57544,61,308.6557377,100,Montreal
+2020,september,Laurier / de Brébeuf,45.532514,-73.5848111,Cartier / Masson,45.5380207,-73.5835236,61,280.6557377,95.08196721,Montreal
+2020,september,Métro Mont-Royal (Rivard / du Mont-Royal),45.524673,-73.58255,de Bordeaux / Marie-Anne,45.5334091,-73.5706571,61,464.9344262,90.16393443,Montreal
+2020,september,du Mont-Royal / Clark,45.51941,-73.58685,Clark / Rachel,45.5173538,-73.5821289,61,260.3770492,96.72131148,Montreal
+2020,september,Jeanne-Mance / Laurier,45.5202763,-73.5949762,Métro Laurier (Rivard / Laurier),45.5276163,-73.5891147,61,323.4754098,93.44262295,Montreal
+2020,september,Métro St-Michel (Shaughnessy / St-Michel),45.559199,-73.599658,12e avenue / St-Zotique,45.5568667,-73.5893065,61,467.4918033,49.18032787,Montreal
+2020,september,Bennett / Pierre-de-Coubertin,45.5581597,-73.5484001,Jeanne-d'Arc / Ontario,45.5495977,-73.5418743,61,486.6393443,83.60655738,Montreal
+2020,september,Jeanne-d'Arc / Ontario,45.5495977,-73.5418743,Métro Pie-IX (Pierre-de-Coubertin / Pie-IX),45.5542138,-73.5515597,60,413.9833333,95,Montreal
+2020,september,des Ormeaux / Notre-Dame,45.5992655,-73.5122607,Notre-Dame / Liébert,45.5928026,-73.5104656,60,986.45,86.66666667,Montreal
+2020,september,Chomedey / de Maisonneuve,45.4918003,-73.5840064,Crescent / de Maisonneuve,45.4981116,-73.5776154,60,576.25,90,Montreal
+2020,september,Bishop / Ste-Catherine,45.4965833,-73.5765016,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,60,496.2333333,85,Montreal
+2020,september,Gauthier / Papineau,45.5296663,-73.5673365,Gauthier / Papineau,45.5296663,-73.5673365,60,1153.516667,86.66666667,Montreal
+2020,september,Laurier / de Brébeuf,45.532514,-73.5848111,Marquette / Laurier,45.53543,-73.5822,60,238.4,98.33333333,Montreal
+2020,september,Métro Mont-Royal (Rivard / du Mont-Royal),45.524673,-73.58255,Marquette / Rachel,45.5298016,-73.5702896,60,462.9166667,98.33333333,Montreal
+2020,september,Métro Préfontaine (Moreau / Hochelaga),45.5412155,-73.5537136,Valois / Ontario,45.5470481,-73.5434461,60,376.9333333,100,Montreal
+2020,september,Léa-Roback / Sir-Georges-Etienne-Cartier,45.4716686,-73.5826439,des Bassins / du Séminaire,45.4905646,-73.5603333,60,1030.933333,46.66666667,Montreal
+2020,september,Ernest-Gendreau / du Mont-Royal,45.5497137,-73.5638483,Métro Joliette  (Joliette / Hochelaga),45.5469072,-73.5515571,60,298.0166667,98.33333333,Montreal
+2020,september,Chabanel / du Parc,45.5383077,-73.6548838,Métro Sauvé (Berri / Sauvé),45.5506921,-73.6563671,60,512.35,98.33333333,Montreal
+2020,september,St-André / Ontario,45.51889,-73.56353,St-André / Ste-Catherine,45.5164265,-73.5581124,59,153.440678,96.61016949,Montreal
+2020,september,André-Laurendeau / Rachel,45.5428642,-73.5618822,1ère avenue / Masson,45.5451997,-73.5764507,59,347.6949153,98.30508475,Montreal
+2020,september,Roy / St-André,45.5215643,-73.5703674,Roy / St-Laurent,45.5156162,-73.5758083,59,404.559322,88.13559322,Montreal
+2020,september,Métro Peel (de Maisonneuve / Stanley),45.50038,-73.57507,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,59,616.9152542,83.05084746,Montreal
+2020,september,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,Rose-de-Lima / Workman,45.4802642,-73.5809936,59,583.6101695,86.44067797,Montreal
+2020,september,Roy / St-Laurent,45.5156162,-73.5758083,Roy / St-André,45.5215643,-73.5703674,59,311.1525424,93.22033898,Montreal
+2020,september,du Mont-Royal / Clark,45.51941,-73.58685,Drolet / Marie-Anne,45.5224026,-73.5811767,59,218.5932203,96.61016949,Montreal
+2020,september,Métro Viau (Pierre-de-Coubertin / Viau),45.5617828,-73.5466111,de Ville-Marie / Ste-Catherine,45.5579707,-73.52917,59,424.8135593,93.22033898,Montreal
+2020,september,Marché Maisonneuve,45.5532188,-73.5397822,Aylwin / Ontario,45.5443031,-73.5454725,59,480.9661017,86.44067797,Montreal
+2020,september,Métro Verdun (Willibrord / de Verdun),45.4594877,-73.5720921,LaSalle / Crawford,45.4379138,-73.5827404,59,821.7118644,66.10169492,Montreal
+2020,september,de Maisonneuve / Greene,45.4869706,-73.5892931,Victoria / de Maisonneuve,45.4774286,-73.6001694,59,562.1355932,81.3559322,Montreal
+2020,september,Young / Wellington,45.4928253,-73.5579783,Notre-Dame / Jean-d'Estrées,45.4942598,-73.5638181,59,269.8135593,91.52542373,Montreal
+2020,september,Augustin-Cantin / Shearer,45.4839017,-73.5636324,Métro Charlevoix (Centre / Charlevoix),45.4782279,-73.5696512,59,264.1186441,96.61016949,Montreal
+2020,september,Édouard-Montpetit / de Stirling,45.50723,-73.615085,Wilderton  / Van Horne,45.5101416,-73.6247519,59,351.3389831,100,Montreal
+2020,september,Atateken / du Square Amherst,45.5206338,-73.563906,Montcalm / de Maisonneuve,45.5191392,-73.5578656,58,183.6724138,100,Montreal
+2020,september,Normand / Marguerite-d’Youville,45.4997767,-73.5541052,de la Commune / Place Jacques-Cartier,45.5076101,-73.551836,58,1091.137931,27.5862069,Montreal
+2020,september,Mackay / René-Lévesque,45.494435,-73.5740983,St-Mathieu / Ste-Catherine,45.4936796,-73.5791463,58,423.8448276,98.27586207,Montreal
+2020,september,Métro Lucien-L'Allier  (Lucien l'Allier / Argyle),45.4948716,-73.5711238,Notre-Dame / de la Montagne,45.493029,-73.5648179,58,260.4310345,84.48275862,Montreal
+2020,september,Chomedey / de Maisonneuve,45.4918003,-73.5840064,St-Mathieu / Ste-Catherine,45.4936796,-73.5791463,58,319.862069,100,Montreal
+2020,september,Fullum / Sherbrooke,45.533924,-73.562425,Messier / du Mont-Royal,45.5371141,-73.5710031,58,279.3448276,87.93103448,Montreal
+2020,september,des Érables / du Mont-Royal,45.5358535,-73.5720545,Métro Mont-Royal (Rivard / du Mont-Royal),45.524673,-73.58255,58,625.5689655,75.86206897,Montreal
+2020,september,Métro Mont-Royal (Rivard / du Mont-Royal),45.524673,-73.58255,de Brébeuf / du Mont-Royal,45.5294078,-73.5781538,58,332.5689655,94.82758621,Montreal
+2020,september,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,Metcalfe / St-Catherine,45.5008323,-73.5724595,58,665.2413793,86.20689655,Montreal
+2020,september,Square St-Louis (du Square St-Louis / Laval),45.5160908,-73.5701287,Laval / Rachel,45.5201785,-73.5794239,58,351.3448276,96.55172414,Montreal
+2020,september,St-Dominique / Laurier,45.5236149,-73.5924574,Marquette / Laurier,45.53543,-73.5822,58,486.0517241,91.37931034,Montreal
+2020,september,Métro St-Michel (Shaughnessy / St-Michel),45.559199,-73.599658,19e avenue / St-Zotique,45.561594,-73.585643,58,427.1206897,100,Montreal
+2020,september,Édouard-Montpetit / de Stirling,45.50723,-73.615085,Parc Kent (de Kent / Hudson),45.5057209,-73.6294591,58,535.0344828,84.48275862,Montreal
+2020,september,Bennett / Pierre-de-Coubertin,45.5581597,-73.5484001,Marché Maisonneuve,45.5532188,-73.5397822,58,368.1206897,91.37931034,Montreal
+2020,september,Duke / Brennan,45.4955814,-73.5537109,Marché Atwater,45.4802082,-73.5775986,57,1172.070175,40.35087719,Montreal
+2020,september,Métro Lucien-L'Allier  (Lucien l'Allier / Argyle),45.4948716,-73.5711238,Guy / Notre-Dame,45.4900422,-73.5671112,57,429.5263158,91.22807018,Montreal
+2020,september,Métro Laurier (Rivard / Laurier),45.5276163,-73.5891147,de l'Esplanade / Fairmount,45.5214957,-73.5968267,57,484.2280702,96.49122807,Montreal
+2020,september,Métro Laurier (Rivard / Laurier),45.5276163,-73.5891147,de Gaspé / St-Viateur,45.5277483,-73.5974389,57,344,98.24561404,Montreal
+2020,september,St-Viateur / St-Laurent,45.5259307,-73.598839,Métro Laurier (Rivard / Laurier),45.5276163,-73.5891147,57,292.3508772,92.98245614,Montreal
+2020,september,Ste-Émilie / Sir-Georges-Etienne-Cartier,45.472668,-73.5853898,de la Commune / St-Sulpice,45.5042425,-73.5534695,57,1273.140351,61.40350877,Montreal
+2020,september,St-André / Ste-Catherine,45.5164265,-73.5581124,Parthenais / Ste-Catherine,45.5260059,-73.5488641,57,460.6491228,100,Montreal
+2020,september,de la Côte St-Paul / St-Ambroise,45.4676657,-73.5939178,St-Joseph / 8e avenue Lachine,45.4314714,-73.671205,57,2012.122807,57.89473684,Montreal
+2020,september,St-Joseph / 8e avenue Lachine,45.4314714,-73.671205,Léa-Roback / Sir-Georges-Etienne-Cartier,45.4716686,-73.5826439,57,2201.508772,70.1754386,Montreal
+2020,september,Notre-Dame / Liébert,45.5928026,-73.5104656,des Ormeaux / Notre-Dame,45.5992655,-73.5122607,57,755.7192982,77.19298246,Montreal
+2020,september,Métro Charlevoix (Centre / Charlevoix),45.4782279,-73.5696512,Fortune / Wellington,45.477923,-73.559038,57,394.5614035,89.47368421,Montreal
+2020,september,18e avenue / Rosemont,45.5578955,-73.5765291,10e avenue / Masson,45.5503765,-73.5737336,56,333.6964286,92.85714286,Montreal
+2020,september,Métro Peel (de Maisonneuve / Stanley),45.50038,-73.57507,Mackay / de Maisonneuve,45.4968299,-73.5791302,56,288.125,92.85714286,Montreal
+2020,september,Métro Vendôme (de Marlowe / de Maisonneuve),45.4739303,-73.6047345,Métro Vendôme (de Marlowe / de Maisonneuve),45.4739303,-73.6047345,56,1465.428571,66.07142857,Montreal
+2020,september,Calixa-Lavallée / Rachel,45.5277948,-73.5719392,Calixa-Lavallée / Rachel,45.5277948,-73.5719392,56,1104.071429,69.64285714,Montreal
+2020,september,Marquette / du Mont-Royal,45.53229,-73.57544,Boyer / du Mont-Royal,45.5274321,-73.5799167,56,322.75,98.21428571,Montreal
+2020,september,Pontiac / Gilford,45.5270093,-73.585766,Marquette / du Mont-Royal,45.53229,-73.57544,56,339.5,96.42857143,Montreal
+2020,september,Milton / du Parc,45.5093614,-73.5738637,Milton / Clark,45.5125414,-73.5706772,56,269.9821429,92.85714286,Montreal
+2020,september,Aylwin / Ontario,45.5443031,-73.5454725,Valois / Ontario,45.5470481,-73.5434461,56,241.0178571,98.21428571,Montreal
+2020,september,Valois / Ontario,45.5470481,-73.5434461,Métro Préfontaine (Moreau / Hochelaga),45.5412155,-73.5537136,56,494.7321429,98.21428571,Montreal
+2020,september,Métro Georges-Vanier (St-Antoine / Canning),45.4891,-73.57656,Canning / Notre-Dame,45.4863186,-73.5702333,56,241.0714286,98.21428571,Montreal
+2020,september,Métro Crémazie (Crémazie / Lajeunesse),45.5464075,-73.6384284,Chabanel / du Parc,45.5383077,-73.6548838,56,590.8214286,80.35714286,Montreal
+2020,september,Métro Verdun (Willibrord / de Verdun),45.4594877,-73.5720921,Bibliothèque de Verdun (Brown / Bannantyne),45.448262,-73.5778561,56,442.8928571,89.28571429,Montreal
+2020,september,19e avenue / St-Zotique,45.561594,-73.585643,19e avenue / St-Zotique,45.561594,-73.585643,56,1333.303571,96.42857143,Montreal
+2020,september,Ball / Querbes,45.5311775,-73.632136,Métro Parc  (Hutchison / Ogilvy),45.5303513,-73.6243924,56,240.0357143,85.71428571,Montreal
+2020,september,Crescent / de Maisonneuve,45.4981116,-73.5776154,Chomedey / de Maisonneuve,45.4918003,-73.5840064,55,458.9090909,92.72727273,Montreal
+2020,september,McGill / Place d'Youville,45.49975,-73.55566,Square Victoria (Viger / du Square-Victoria),45.50206,-73.56295,55,264.6727273,96.36363636,Montreal
+2020,september,des Érables / du Mont-Royal,45.5358535,-73.5720545,des Érables / Rachel,45.5335475,-73.5668671,55,172.7454545,94.54545455,Montreal
+2020,september,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,de Maisonneuve / Greene,45.4869706,-73.5892931,55,346.9090909,92.72727273,Montreal
+2020,september,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,Melville / de Maisonneuve,45.4818402,-73.595379,55,517.1818182,83.63636364,Montreal
+2020,september,Métro Sauvé (Berri / Sauvé),45.5506921,-73.6563671,Marquette / Fleury,45.5673521,-73.6537874,55,669.5090909,87.27272727,Montreal
+2020,september,Parc Jeanne Mance (monument sir George-Etienne Cartier),45.5148399,-73.5847789,Parc Jeanne-Mance (du Mont-Royal / du Parc),45.517,-73.589,55,363.3090909,85.45454545,Montreal
+2020,september,Jeanne-Mance / Laurier,45.5202763,-73.5949762,du Mont-Royal / Clark,45.51941,-73.58685,55,297.7454545,94.54545455,Montreal
+2020,september,de Maisonneuve / Greene,45.4869706,-73.5892931,Métro Peel (de Maisonneuve / Stanley),45.50038,-73.57507,55,695.5454545,49.09090909,Montreal
+2020,september,Melville / de Maisonneuve,45.4818402,-73.595379,Chomedey / de Maisonneuve,45.4918003,-73.5840064,55,536.2,90.90909091,Montreal
+2020,september,Jardin Botanique (Pie-IX / Sherbrooke),45.554947,-73.5552947,Omer-Lavallée / du Midway,45.545776,-73.5621746,55,751.9090909,83.63636364,Montreal
+2020,september,Métro Rosemont (de St-Vallier / Rosemont),45.5319549,-73.5981604,Cartier / Dandurand,45.5392356,-73.5859457,55,430.1636364,81.81818182,Montreal
+2020,september,Fullum / Gilford,45.5392237,-73.5738368,Pontiac / Gilford,45.5270093,-73.585766,55,559.9636364,98.18181818,Montreal
+2020,september,de la Côte St-Paul / St-Ambroise,45.4676657,-73.5939178,St-Philippe / St-Jacques,45.4768907,-73.5881113,55,569.4363636,85.45454545,Montreal
+2020,september,Crescent / de Maisonneuve,45.4981116,-73.5776154,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,54,567.6851852,87.03703704,Montreal
+2020,september,Chomedey / de Maisonneuve,45.4918003,-73.5840064,Métro Guy-Concordia (Guy / St-Catherine),45.4949815,-73.5777327,54,360.537037,85.18518519,Montreal
+2020,september,Métro Papineau (Cartier / Ste-Catherine),45.52353,-73.55199,Métro Papineau (Cartier / Ste-Catherine),45.52353,-73.55199,54,1392.425926,72.22222222,Montreal
+2020,september,du Parc-La Fontaine / Duluth,45.5245176,-73.5719767,de Brébeuf / du Mont-Royal,45.5294078,-73.5781538,54,355.5,98.14814815,Montreal
+2020,september,Square St-Louis (du Square St-Louis / Laval),45.5160908,-73.5701287,Square St-Louis (du Square St-Louis / Laval),45.5160908,-73.5701287,54,1294.148148,88.88888889,Montreal
+2020,september,Bloomfield / Bernard,45.5204578,-73.6082724,Bloomfield / Bernard,45.5204578,-73.6082724,54,1285.703704,92.59259259,Montreal
+2020,september,Métro Crémazie (Crémazie / Lajeunesse),45.5464075,-73.6384284,Basile-Routhier / Chabanel,45.5498684,-73.6476566,54,288.2407407,94.44444444,Montreal
+2020,september,Léa-Roback / Sir-Georges-Etienne-Cartier,45.4716686,-73.5826439,de la Côte St-Paul / St-Ambroise,45.4676657,-73.5939178,54,747.9074074,70.37037037,Montreal
+2020,september,Métro Beaubien (de Chateaubriand / Beaubien),45.53536,-73.6036348,Molson / Beaubien,45.5496859,-73.5911545,54,645.4814815,94.44444444,Montreal
+2020,september,Métro Angrignon (Lamont /  des Trinitaires),45.4470592,-73.6022951,Métro Angrignon (Lamont /  des Trinitaires),45.4470592,-73.6022951,54,2391.888889,68.51851852,Montreal
+2020,september,St-Denis / René-Lévesque,45.5128712,-73.5584664,Ste-Catherine / Labelle,45.5151034,-73.5593009,53,255.3207547,96.22641509,Montreal
+2020,september,Square Victoria (Viger / du Square-Victoria),45.50206,-73.56295,Queen / Wellington,45.4976053,-73.5553497,53,318.0188679,98.11320755,Montreal
+2020,september,Métro Vendôme (de Marlowe / de Maisonneuve),45.4739303,-73.6047345,de Melrose / Sherbrooke,45.4698198,-73.6169614,53,398.4528302,71.69811321,Montreal
+2020,september,des Érables / du Mont-Royal,45.5358535,-73.5720545,des Érables / Laurier,45.5384608,-73.5776791,53,211.1698113,96.22641509,Montreal
+2020,september,Marquette / du Mont-Royal,45.53229,-73.57544,Laurier / de Brébeuf,45.532514,-73.5848111,53,454.490566,88.67924528,Montreal
+2020,september,Parc Jeanne-Mance (du Mont-Royal / du Parc),45.517,-73.589,Métro Mont-Royal (Rivard / du Mont-Royal),45.524673,-73.58255,53,418.2641509,73.58490566,Montreal
+2020,september,St-Dominique / St-Zotique,45.5322646,-73.6110632,St-Dominique / St-Zotique,45.5322646,-73.6110632,53,1259.377358,69.81132075,Montreal
+2020,september,St-Dominique / St-Zotique,45.5322646,-73.6110632,Métro de Castelnau (de Castelnau / St-Laurent),45.5357088,-73.6196235,53,244.9056604,98.11320755,Montreal
+2020,september,Cartier / Dandurand,45.5392356,-73.5859457,Métro Rosemont (de St-Vallier / Rosemont),45.5319549,-73.5981604,53,472.2830189,77.35849057,Montreal
+2020,september,St-Dominique / Laurier,45.5236149,-73.5924574,Métro Laurier (Rivard / Laurier),45.5276163,-73.5891147,53,258.1698113,94.33962264,Montreal
+2020,september,McLynn / Plamondon,45.4891131,-73.6470129,Métro Université de Montréal (Édouard-Montpetit / Louis-Collin),45.50364,-73.618269,53,537.8113208,79.24528302,Montreal
+2020,september,Rivier / Davidson,45.5461147,-73.5570931,Aylwin / Ontario,45.5443031,-73.5454725,53,393.490566,86.79245283,Montreal
+2020,september,Place du Commerce,45.46714,-73.54259,Métro Lasalle (de Rushbrooke / Caisse),45.4706964,-73.5654224,53,917.8113208,66.03773585,Montreal
+2020,september,Victoria / de Maisonneuve,45.4774286,-73.6001694,de Maisonneuve / Greene,45.4869706,-73.5892931,53,487.8867925,92.45283019,Montreal
+2020,september,St-André / Ste-Catherine,45.5164265,-73.5581124,Montcalm / Ontario,45.521081,-73.5622752,53,238.9811321,100,Montreal
+2020,september,Métro Beaubien (de Chateaubriand / Beaubien),45.53536,-73.6036348,de Gaspé / Beaubien,45.5319579,-73.607001,53,188.6792453,100,Montreal
+2020,september,Métro Guy-Concordia (Guy / St-Catherine),45.4949815,-73.5777327,Métro Guy-Concordia (Guy / St-Catherine),45.4949815,-73.5777327,53,903.4528302,90.56603774,Montreal
+2020,september,Aylmer / Prince-Arthur,45.5085669,-73.5776979,Prince-Arthur / du Parc,45.51059,-73.57547,53,132.6037736,96.22641509,Montreal
+2020,september,Argyle / de Verdun,45.4530158,-73.571915,Bibliothèque de Verdun (Brown / Bannantyne),45.448262,-73.5778561,53,272.7924528,98.11320755,Montreal
+2020,september,Métro Charlevoix (Centre / Charlevoix),45.4782279,-73.5696512,Richardson / de Montmorency,45.4849802,-73.5603333,53,419.245283,88.67924528,Montreal
+2020,september,Queen / Wellington,45.4976053,-73.5553497,Square Victoria (Viger / du Square-Victoria),45.50206,-73.56295,52,296.4038462,96.15384615,Montreal
+2020,september,Joseph-Manseau / René-Lévesque,45.4916865,-73.5767671,Drummond / Ste-Catherine,45.4986393,-73.5742271,52,456.6730769,86.53846154,Montreal
+2020,september,Logan / Fullum,45.528366,-73.5511708,Métro Papineau (Cartier / Ste-Catherine),45.52353,-73.55199,52,375.1730769,96.15384615,Montreal
+2020,september,Métro Papineau (Cartier / Ste-Catherine),45.52353,-73.55199,Place Émilie-Gamelin (St-Hubert / de Maisonneuve),45.5159013,-73.5599484,52,446.4615385,96.15384615,Montreal
+2020,september,Métro Laurier (Rivard / Laurier),45.5276163,-73.5891147,Métro Mont-Royal (Rivard / du Mont-Royal),45.524673,-73.58255,52,326.2884615,94.23076923,Montreal
+2020,september,des Érables / Rachel,45.5335475,-73.5668671,des Érables / du Mont-Royal,45.5358535,-73.5720545,52,190.7307692,92.30769231,Montreal
+2020,september,de Brébeuf / du Mont-Royal,45.5294078,-73.5781538,de Brébeuf / du Mont-Royal,45.5294078,-73.5781538,52,688.0576923,90.38461538,Montreal
+2020,september,de Mentana / Rachel,45.5249632,-73.5755588,Boyer / du Mont-Royal,45.5274321,-73.5799167,52,274.0384615,96.15384615,Montreal
+2020,september,St-Cyril / Wiseman,45.5208548,-73.6157396,Bloomfield / Bernard,45.5204578,-73.6082724,52,332.6346154,94.23076923,Montreal
+2020,september,des Érables / Laurier,45.5384608,-73.5776791,des Érables / du Mont-Royal,45.5358535,-73.5720545,52,222.8653846,96.15384615,Montreal
+2020,september,1ère avenue / Masson,45.5451997,-73.5764507,André-Laurendeau / Rachel,45.5428642,-73.5618822,52,338.1153846,92.30769231,Montreal
+2020,september,1ère avenue / Masson,45.5451997,-73.5764507,Chabot / du Mont-Royal,45.5341851,-73.5735887,52,529.4615385,78.84615385,Montreal
+2020,september,Métro Pie-IX (Pierre-de-Coubertin / Pie-IX),45.5542138,-73.5515597,Bennett / Pierre-de-Coubertin,45.5581597,-73.5484001,52,191.6153846,94.23076923,Montreal
+2020,september,Marché Atwater,45.4802082,-73.5775986,Normand / Marguerite-d’Youville,45.4997767,-73.5541052,52,1218.596154,36.53846154,Montreal
+2020,september,Métro Crémazie (Crémazie / Lajeunesse),45.5464075,-73.6384284,Complexe sportif Claude-Robillard,45.553262,-73.638615,52,274.0384615,86.53846154,Montreal
+2020,september,Melville / de Maisonneuve,45.4818402,-73.595379,de Maisonneuve / Greene,45.4869706,-73.5892931,52,340.4230769,78.84615385,Montreal
+2020,september,St-André / Ste-Catherine,45.5164265,-73.5581124,Dorion / Ontario,45.5269913,-73.5582116,52,597.1153846,100,Montreal
+2020,september,Parc des Rapides (LaSalle / 6e avenue),45.4294714,-73.5930992,Parc des Rapides (LaSalle / 6e avenue),45.4294714,-73.5930992,52,2027.076923,34.61538462,Montreal
+2020,september,Ottawa / Peel,45.4939202,-73.5595018,Ottawa / Peel,45.4939202,-73.5595018,52,1565.942308,78.84615385,Montreal
+2020,september,des Bassins / Richmond,45.4876991,-73.564893,de la Commune / St-Sulpice,45.5042425,-73.5534695,52,966.0769231,57.69230769,Montreal
+2020,september,Tupper / du Fort,45.4912296,-73.5807824,Métro Georges-Vanier (St-Antoine / Canning),45.4891,-73.57656,52,164.2115385,96.15384615,Montreal
+2020,september,Smith / Peel,45.4927606,-73.5564105,des Bassins / Richmond,45.4876991,-73.564893,52,307.3653846,98.07692308,Montreal
+2020,september,Métro Sherbrooke (de Rigaud / St-Denis),45.5179989,-73.5681841,Square St-Louis (du Square St-Louis / Laval),45.5160908,-73.5701287,51,256.9215686,96.07843137,Montreal
+2020,september,de la Commune / Place Jacques-Cartier,45.5076101,-73.551836,BAnQ (Berri / de Maisonneuve),45.515299,-73.561273,51,908.0980392,37.25490196,Montreal
+2020,september,Square Victoria (Viger / du Square-Victoria),45.50206,-73.56295,Ann / Wellington,45.4945271,-73.5567525,51,374.6666667,96.07843137,Montreal
+2020,september,Métro Bonaventure (de la Gauchetière / de la Cathédrale),45.4983122,-73.567256,Notre-Dame / Jean-d'Estrées,45.4942598,-73.5638181,51,175.7843137,100,Montreal
+2020,september,St-Alexandre / Ste-Catherine,45.5052735,-73.5674787,des Récollets / McGill,45.5008765,-73.5590056,51,248.1960784,98.03921569,Montreal
+2020,september,Métro Vendôme (de Marlowe / de Maisonneuve),45.4739303,-73.6047345,Benny / Sherbrooke,45.464877,-73.6265972,51,806.9019608,66.66666667,Montreal
+2020,september,St-Mathieu / Ste-Catherine,45.4936796,-73.5791463,des Bassins / du Séminaire,45.4905646,-73.5603333,51,570.4117647,96.07843137,Montreal
+2020,september,Messier / du Mont-Royal,45.5371141,-73.5710031,des Érables / Laurier,45.5384608,-73.5776791,51,302.0980392,98.03921569,Montreal
+2020,september,Cartier / St-Joseph,45.5358282,-73.5786903,Pontiac / Gilford,45.5270093,-73.585766,51,337.6862745,100,Montreal
+2020,september,Laurier / de Brébeuf,45.532514,-73.5848111,du Mont-Royal / Clark,45.51941,-73.58685,51,590.627451,92.15686275,Montreal
+2020,september,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,Mackay / René-Lévesque,45.494435,-73.5740983,51,580.1176471,82.35294118,Montreal
+2020,september,Milton / Durocher,45.508141,-73.5749298,Milton / Durocher,45.508141,-73.5749298,51,1107.745098,76.47058824,Montreal
+2020,september,Parc Jeanne-Mance (du Mont-Royal / du Parc),45.517,-73.589,Parc Jeanne-Mance (du Mont-Royal / du Parc),45.517,-73.589,51,1641.078431,52.94117647,Montreal
+2020,september,Boyer / Everett,45.5432845,-73.6162861,Métro Jean-Talon (Berri / Jean-Talon),45.5390004,-73.614251,51,216.0784314,100,Montreal
+2020,september,Ontario / Sicard,45.5562619,-73.5374406,Bennett / Pierre-de-Coubertin,45.5581597,-73.5484001,51,380.7647059,98.03921569,Montreal
+2020,september,15e avenue / Masson,45.553898,-73.5713866,Métro Joliette  (Joliette / Hochelaga),45.5469072,-73.5515571,51,471.5294118,94.11764706,Montreal
+2020,september,Dézéry / Ontario,45.5409579,-73.5470295,Valois / Ontario,45.5470481,-73.5434461,51,404.1176471,88.23529412,Montreal
+2020,september,Marché Maisonneuve,45.5532188,-73.5397822,Bennett / Pierre-de-Coubertin,45.5581597,-73.5484001,51,462.6862745,88.23529412,Montreal
+2020,september,LaSalle / Crawford,45.4379138,-73.5827404,Métro Verdun (Willibrord / de Verdun),45.4594877,-73.5720921,51,803.0588235,50.98039216,Montreal
+2020,september,St-André / Ste-Catherine,45.5164265,-73.5581124,St-André / St-Antoine,45.5141145,-73.5526447,51,224.3529412,98.03921569,Montreal
+2020,september,Bibliothèque de Verdun (Brown / Bannantyne),45.448262,-73.5778561,Argyle / de Verdun,45.4530158,-73.571915,51,254.4705882,98.03921569,Montreal
+2020,september,Mackay / René-Lévesque,45.494435,-73.5740983,Tupper / du Fort,45.4912296,-73.5807824,50,416.66,100,Montreal
+2020,september,des Bassins / du Séminaire,45.4905646,-73.5603333,Notre-Dame / de la Montagne,45.493029,-73.5648179,50,301.22,96,Montreal
+2020,september,Mackay / de Maisonneuve,45.4968299,-73.5791302,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,50,471.22,94,Montreal
+2020,september,Lincoln / du Fort,45.493034,-73.583836,Crescent / de Maisonneuve,45.4981116,-73.5776154,50,564.16,100,Montreal
+2020,september,Ellendale / de la Côte-des-Neiges,45.499757,-73.629298,de Kent / Victoria,45.494564,-73.638702,50,954.5,100,Montreal
+2020,september,Métro Laurier (Rivard / Laurier),45.5276163,-73.5891147,1ère avenue / Masson,45.5451997,-73.5764507,50,718.8,62,Montreal
+2020,september,Pontiac / Gilford,45.5270093,-73.585766,Cartier / St-Joseph,45.5358282,-73.5786903,50,393.86,92,Montreal
+2020,september,Villeneuve / du Parc,45.51829,-73.59235,Villeneuve / du Parc,45.51829,-73.59235,50,1408.98,86,Montreal
+2020,september,Querbes / Laurier,45.51754,-73.5978319,Bloomfield / Bernard,45.5204578,-73.6082724,50,322.18,94,Montreal
+2020,september,St-Dominique / Rachel,45.518593,-73.581566,Métro Mont-Royal (Rivard / du Mont-Royal),45.524673,-73.58255,50,339.1,86,Montreal
+2020,september,Wilderton  / Van Horne,45.5101416,-73.6247519,Édouard-Montpetit / de Stirling,45.50723,-73.615085,50,375.94,96,Montreal
+2020,september,Ontario / Viau,45.5594818,-73.535496,Jeanne-d'Arc / Ontario,45.5495977,-73.5418743,50,406.28,96,Montreal
+2020,september,St-André / Ste-Catherine,45.5164265,-73.5581124,St-André / Ontario,45.51889,-73.56353,50,166.7,96,Montreal
+2020,september,Montcalm / Ontario,45.521081,-73.5622752,Montcalm / de Maisonneuve,45.5191392,-73.5578656,50,141.8,96,Montreal
+2020,september,Casgrain / Mozart,45.5347273,-73.6147928,St-Dominique / St-Zotique,45.5322646,-73.6110632,50,265.98,98,Montreal
+2020,september,de la Côte St-Paul / St-Ambroise,45.4676657,-73.5939178,de la Côte St-Paul / St-Ambroise,45.4676657,-73.5939178,50,1585.04,64,Montreal
+2020,september,Bibliothèque de Verdun (Brown / Bannantyne),45.448262,-73.5778561,Métro Verdun (Willibrord / de Verdun),45.4594877,-73.5720921,50,464.24,88,Montreal
+2020,september,Smith / Peel,45.4927606,-73.5564105,Marché Atwater,45.4802082,-73.5775986,50,806.26,78,Montreal
+2020,september,des Bassins / du Séminaire,45.4905646,-73.5603333,Léa-Roback / Sir-Georges-Etienne-Cartier,45.4716686,-73.5826439,49,1168.489796,42.85714286,Montreal
+2020,september,Chomedey / de Maisonneuve,45.4918003,-73.5840064,Chomedey / de Maisonneuve,45.4918003,-73.5840064,49,1478.102041,83.67346939,Montreal
+2020,september,Montcalm / de Maisonneuve,45.5191392,-73.5578656,Dorion / Ontario,45.5269913,-73.5582116,49,428.122449,97.95918367,Montreal
+2020,september,de Brébeuf / du Mont-Royal,45.5294078,-73.5781538,Marquette / du Mont-Royal,45.53229,-73.57544,49,363.755102,97.95918367,Montreal
+2020,september,St-Hubert / Duluth,45.5224257,-73.5741842,Métro Mont-Royal (Rivard / du Mont-Royal),45.524673,-73.58255,49,283.1020408,97.95918367,Montreal
+2020,september,de l'Esplanade / Fairmount,45.5214957,-73.5968267,Métro Laurier (Rivard / Laurier),45.5276163,-73.5891147,49,357.755102,93.87755102,Montreal
+2020,september,Roy / St-Laurent,45.5156162,-73.5758083,Métro St-Laurent (de Maisonneuve / St-Laurent),45.5111177,-73.564788,49,389.8367347,87.75510204,Montreal
+2020,september,du Mont-Royal / Clark,45.51941,-73.58685,de Bullion / St-Joseph,45.5240365,-73.5901433,49,310.1428571,100,Montreal
+2020,september,du Mont-Royal / Clark,45.51941,-73.58685,du Mont-Royal / Clark,45.51941,-73.58685,49,1211.612245,61.2244898,Montreal
+2020,september,Jeanne-Mance / Laurier,45.5202763,-73.5949762,Drolet / Laurier,45.5262519,-73.5897584,49,256.2244898,97.95918367,Montreal
+2020,september,4e avenue / de Verdun,45.4568845,-73.572607,Métro Verdun (Willibrord / de Verdun),45.4594877,-73.5720921,49,155.6326531,100,Montreal
+2020,september,de Laprairie / Centre,45.4805925,-73.5657781,Métro Charlevoix (Centre / Charlevoix),45.4782279,-73.5696512,49,189.5102041,100,Montreal
+2020,september,Valois / Ontario,45.5470481,-73.5434461,Aylwin / Ontario,45.5443031,-73.5454725,49,248.4897959,93.87755102,Montreal
+2020,september,Marché Atwater,45.4802082,-73.5775986,de la Commune / Berri,45.51086,-73.54983,49,1475.306122,75.51020408,Montreal
+2020,september,de Maisonneuve / Greene,45.4869706,-73.5892931,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,49,470.9183673,97.95918367,Montreal
+2020,september,Canning / Notre-Dame,45.4863186,-73.5702333,Métro Georges-Vanier (St-Antoine / Canning),45.4891,-73.57656,49,208.4897959,97.95918367,Montreal
+2020,september,Young / Wellington,45.4928253,-73.5579783,Notre-Dame / de la Montagne,45.493029,-73.5648179,49,353.3265306,87.75510204,Montreal
+2020,september,Métro Guy-Concordia (Guy / St-Catherine),45.4949815,-73.5777327,Joseph-Manseau / René-Lévesque,45.4916865,-73.5767671,49,357.2857143,85.71428571,Montreal
+2020,september,Métro Guy-Concordia (Guy / St-Catherine),45.4949815,-73.5777327,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,49,672.0816327,81.63265306,Montreal
+2020,september,Place Émilie-Gamelin (St-Hubert / de Maisonneuve),45.5159013,-73.5599484,Métro St-Laurent (de Maisonneuve / St-Laurent),45.5111177,-73.564788,49,252.1632653,93.87755102,Montreal
+2020,september,Tupper / du Fort,45.4912296,-73.5807824,St-Mathieu / Ste-Catherine,45.4936796,-73.5791463,49,253.4285714,97.95918367,Montreal
+2020,september,de la Commune / St-Sulpice,45.5042425,-73.5534695,Young / Wellington,45.4928253,-73.5579783,48,563.3958333,72.91666667,Montreal
+2020,september,de la Commune / St-Sulpice,45.5042425,-73.5534695,des Bassins / Richmond,45.4876991,-73.564893,48,877.4375,58.33333333,Montreal
+2020,september,Métro Bonaventure (de la Gauchetière / de la Cathédrale),45.4983122,-73.567256,Young / Wellington,45.4928253,-73.5579783,48,336.7083333,97.91666667,Montreal
+2020,september,Normand / Marguerite-d’Youville,45.4997767,-73.5541052,de la Commune / St-Sulpice,45.5042425,-73.5534695,48,711.25,35.41666667,Montreal
+2020,september,de Ville-Marie / Ste-Catherine,45.5579707,-73.52917,Métro Viau (Pierre-de-Coubertin / Viau),45.5617828,-73.5466111,48,459.9166667,85.41666667,Montreal
+2020,september,Mackay / René-Lévesque,45.494435,-73.5740983,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,48,449.9583333,89.58333333,Montreal
+2020,september,des Érables / du Mont-Royal,45.5358535,-73.5720545,Gauthier / de Lorimier,45.5316747,-73.5653704,48,239,97.91666667,Montreal
+2020,september,Marquette / Laurier,45.53543,-73.5822,Garnier / du Mont-Royal,45.53092,-73.57674,48,290.9791667,93.75,Montreal
+2020,september,Boyer / du Mont-Royal,45.5274321,-73.5799167,de Bordeaux / Marie-Anne,45.5334091,-73.5706571,48,405.25,68.75,Montreal
+2020,september,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,Hillside / Ste-Catherine,45.482826,-73.5908434,48,383.1875,97.91666667,Montreal
+2020,september,Prince-Arthur / du Parc,45.51059,-73.57547,Clark / Prince-Arthur,45.5133026,-73.5729611,48,198.9791667,93.75,Montreal
+2020,september,Métro Sauvé (Berri / Sauvé),45.5506921,-73.6563671,Tolhurst / Fleury,45.5440792,-73.6673574,48,539.8958333,97.91666667,Montreal
+2020,september,Jeanne-Mance / St-Viateur,45.5230265,-73.6018404,Jeanne-Mance / Bernard,45.5244504,-73.6051744,48,297.7291667,89.58333333,Montreal
+2020,september,Chabot / Beaubien,45.5443755,-73.5956445,Métro Beaubien (de Chateaubriand / Beaubien),45.53536,-73.6036348,48,377.875,91.66666667,Montreal
+2020,september,Ryde / Charlevoix,45.4757434,-73.5646007,Charlevoix / Lionel-Groulx,45.483928,-73.5773116,48,391.5416667,95.83333333,Montreal
+2020,september,1ère avenue / Masson,45.5451997,-73.5764507,10e avenue / Masson,45.5503765,-73.5737336,48,289.6666667,93.75,Montreal
+2020,september,Dubois / Eadie,45.4575968,-73.5905286,Métro Jolicoeur (de Sève / Drake),45.4560855,-73.5819371,48,241.7916667,100,Montreal
+2020,september,Montcalm / Ontario,45.521081,-73.5622752,St-André / Ste-Catherine,45.5164265,-73.5581124,48,276.5,97.91666667,Montreal
+2020,september,Métro Université de Montréal (Édouard-Montpetit / Louis-Collin),45.50364,-73.618269,Parc Kent (de Kent / Hudson),45.5057209,-73.6294591,48,334.8541667,62.5,Montreal
+2020,september,Métro Université de Montréal (Édouard-Montpetit / Louis-Collin),45.50364,-73.618269,McLynn / Plamondon,45.4891131,-73.6470129,48,586.8541667,89.58333333,Montreal
+2020,september,Jeanne-d'Arc / Ontario,45.5495977,-73.5418743,Aylwin / Ontario,45.5443031,-73.5454725,47,320.106383,80.85106383,Montreal
+2020,september,Chomedey / de Maisonneuve,45.4918003,-73.5840064,Métro Atwater (Atwater / Ste-Catherine),45.4894762,-73.5845657,47,589,93.61702128,Montreal
+2020,september,Wolfe / René-Lévesque,45.5168175,-73.5541883,de la Commune / Place Jacques-Cartier,45.5076101,-73.551836,47,509.4893617,74.46808511,Montreal
+2020,september,Métro Papineau (Cartier / Ste-Catherine),45.52353,-73.55199,Jean Langlois / Fullum,45.5265,-73.5457528,47,492.8297872,93.61702128,Montreal
+2020,september,Fullum / Sherbrooke,45.533924,-73.562425,Marquette / du Mont-Royal,45.53229,-73.57544,47,497.7659574,95.74468085,Montreal
