@@ -10,7 +10,10 @@ This data was then visualized using Tableau to create an interactive map of Mont
 
 ## Project Intention
 
-You can run and use the python script. However, you will have to change the hardcoded year and length of the top routes generated. 
+You can run and use the python script. However, you will first have to download the bixi ride data for 2019 and 2020 and make sure it is properly read by the script.
+You will also have to change the hardcoded year and length of the top routes generated. 
+
+Download link: https://bixi.com/en/open-data
 
 The purpose of this repository is mostly to visualize the data using the Tableau Workbook 'most_popular_route_analysis.twb'.
 
