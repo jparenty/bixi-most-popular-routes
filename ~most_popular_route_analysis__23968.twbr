@@ -1,0 +1,2535 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20213.21.1112.1434                               -->
+<workbook source-build='2021.3.4 (20213.21.1112.1434)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.Layers.true...Layers />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.RelationshipCalculations.true...RelationshipCalculations />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SpatialFileLayer />
+    <SpatialShapeFileInZip />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column caption='Year Parameter' datatype='string' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;2019&quot;'>
+        <calculation class='tableau' formula='&quot;2019&quot;' />
+        <members>
+          <member value='&quot;2019&quot;' />
+          <member value='&quot;2020&quot;' />
+        </members>
+      </column>
+    </datasource>
+    <datasource caption='top_500_april_2019.csv+ (Multiple Connections)' inline='true' name='federated.1w57ij90zfln271ctkki619g3yky' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='stm_route' name='ogrdirect.11ku53r1yw39rr1asls3s0cv4zqj'>
+            <connection class='ogrdirect' directory='C:/Users/paren/OneDrive - McGill University/Fall 2021/INSY 442/Final Project/data' filename='stm_route.zip' password='' server='' tablename='' />
+          </named-connection>
+          <named-connection caption='top_500_april_2019' name='textscan.0wmltz21q3asy01627pgq1xghvvh'>
+            <connection class='textscan' directory='C:/Users/paren/OneDrive - McGill University/Fall 2021/INSY 442/Final Project/data/bixi_ride/2019_2020_top_500' filename='top_500_april_2019.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='ogrdirect.11ku53r1yw39rr1asls3s0cv4zqj' name='stm_lignes_sig' table='[stm_lignes_sig]' type='table'>
+          <columns>
+            <column datatype='integer' name='route_id' ordinal='0' />
+            <column datatype='string' name='headsign' ordinal='1' />
+            <column datatype='string' name='route_name' ordinal='2' />
+            <column datatype='integer' name='shape_id' ordinal='3' />
+            <column datatype='string' name='service_id' ordinal='4' />
+            <column datatype='spatial' name='Geometry' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation all='true' name='top_500_april_2019.csv+' type='union'>
+            <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+              <column datatype='integer' name='Year' />
+              <column datatype='string' name='Month' />
+              <column datatype='string' name='Start Station' />
+              <column datatype='real' name='Start Latitude' />
+              <column datatype='real' name='Start Longitude' />
+              <column datatype='string' name='End Station' />
+              <column datatype='real' name='End Latitude' />
+              <column datatype='real' name='End Longitude' />
+              <column datatype='integer' name='Occurence' />
+              <column datatype='real' name='Average Duration' />
+              <column datatype='real' name='Percentage Member' />
+              <column datatype='string' name='Location' />
+              <column datatype='string' name='Table Name' />
+            </columns>
+            <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_april_2019.csv' table='[top_500_april_2019#csv]' type='table'>
+              <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                <column datatype='integer' name='Year' ordinal='0' />
+                <column datatype='string' name='Month' ordinal='1' />
+                <column datatype='string' name='Start Station' ordinal='2' />
+                <column datatype='real' name='Start Latitude' ordinal='3' />
+                <column datatype='real' name='Start Longitude' ordinal='4' />
+                <column datatype='string' name='End Station' ordinal='5' />
+                <column datatype='real' name='End Latitude' ordinal='6' />
+                <column datatype='real' name='End Longitude' ordinal='7' />
+                <column datatype='integer' name='Occurence' ordinal='8' />
+                <column datatype='real' name='Average Duration' ordinal='9' />
+                <column datatype='real' name='Percentage Member' ordinal='10' />
+                <column datatype='string' name='Location' ordinal='11' />
+              </columns>
+            </relation>
+            <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_april_2020.csv' table='[top_500_april_2020#csv]' type='table'>
+              <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                <column datatype='integer' name='Year' ordinal='0' />
+                <column datatype='string' name='Month' ordinal='1' />
+                <column datatype='string' name='Start Station' ordinal='2' />
+                <column datatype='real' name='Start Latitude' ordinal='3' />
+                <column datatype='real' name='Start Longitude' ordinal='4' />
+                <column datatype='string' name='End Station' ordinal='5' />
+                <column datatype='real' name='End Latitude' ordinal='6' />
+                <column datatype='real' name='End Longitude' ordinal='7' />
+                <column datatype='integer' name='Occurence' ordinal='8' />
+                <column datatype='real' name='Average Duration' ordinal='9' />
+                <column datatype='real' name='Percentage Member' ordinal='10' />
+                <column datatype='string' name='Location' ordinal='11' />
+              </columns>
+            </relation>
+            <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_august_2019.csv' table='[top_500_august_2019#csv]' type='table'>
+              <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                <column datatype='integer' name='Year' ordinal='0' />
+                <column datatype='string' name='Month' ordinal='1' />
+                <column datatype='string' name='Start Station' ordinal='2' />
+                <column datatype='real' name='Start Latitude' ordinal='3' />
+                <column datatype='real' name='Start Longitude' ordinal='4' />
+                <column datatype='string' name='End Station' ordinal='5' />
+                <column datatype='real' name='End Latitude' ordinal='6' />
+                <column datatype='real' name='End Longitude' ordinal='7' />
+                <column datatype='integer' name='Occurence' ordinal='8' />
+                <column datatype='real' name='Average Duration' ordinal='9' />
+                <column datatype='real' name='Percentage Member' ordinal='10' />
+                <column datatype='string' name='Location' ordinal='11' />
+              </columns>
+            </relation>
+            <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_august_2020.csv' table='[top_500_august_2020#csv]' type='table'>
+              <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                <column datatype='integer' name='Year' ordinal='0' />
+                <column datatype='string' name='Month' ordinal='1' />
+                <column datatype='string' name='Start Station' ordinal='2' />
+                <column datatype='real' name='Start Latitude' ordinal='3' />
+                <column datatype='real' name='Start Longitude' ordinal='4' />
+                <column datatype='string' name='End Station' ordinal='5' />
+                <column datatype='real' name='End Latitude' ordinal='6' />
+                <column datatype='real' name='End Longitude' ordinal='7' />
+                <column datatype='integer' name='Occurence' ordinal='8' />
+                <column datatype='real' name='Average Duration' ordinal='9' />
+                <column datatype='real' name='Percentage Member' ordinal='10' />
+                <column datatype='string' name='Location' ordinal='11' />
+              </columns>
+            </relation>
+            <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_july_2019.csv' table='[top_500_july_2019#csv]' type='table'>
+              <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                <column datatype='integer' name='Year' ordinal='0' />
+                <column datatype='string' name='Month' ordinal='1' />
+                <column datatype='string' name='Start Station' ordinal='2' />
+                <column datatype='real' name='Start Latitude' ordinal='3' />
+                <column datatype='real' name='Start Longitude' ordinal='4' />
+                <column datatype='string' name='End Station' ordinal='5' />
+                <column datatype='real' name='End Latitude' ordinal='6' />
+                <column datatype='real' name='End Longitude' ordinal='7' />
+                <column datatype='integer' name='Occurence' ordinal='8' />
+                <column datatype='real' name='Average Duration' ordinal='9' />
+                <column datatype='real' name='Percentage Member' ordinal='10' />
+                <column datatype='string' name='Location' ordinal='11' />
+              </columns>
+            </relation>
+            <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_july_2020.csv' table='[top_500_july_2020#csv]' type='table'>
+              <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                <column datatype='integer' name='Year' ordinal='0' />
+                <column datatype='string' name='Month' ordinal='1' />
+                <column datatype='string' name='Start Station' ordinal='2' />
+                <column datatype='real' name='Start Latitude' ordinal='3' />
+                <column datatype='real' name='Start Longitude' ordinal='4' />
+                <column datatype='string' name='End Station' ordinal='5' />
+                <column datatype='real' name='End Latitude' ordinal='6' />
+                <column datatype='real' name='End Longitude' ordinal='7' />
+                <column datatype='integer' name='Occurence' ordinal='8' />
+                <column datatype='real' name='Average Duration' ordinal='9' />
+                <column datatype='real' name='Percentage Member' ordinal='10' />
+                <column datatype='string' name='Location' ordinal='11' />
+              </columns>
+            </relation>
+            <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_june_2019.csv' table='[top_500_june_2019#csv]' type='table'>
+              <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                <column datatype='integer' name='Year' ordinal='0' />
+                <column datatype='string' name='Month' ordinal='1' />
+                <column datatype='string' name='Start Station' ordinal='2' />
+                <column datatype='real' name='Start Latitude' ordinal='3' />
+                <column datatype='real' name='Start Longitude' ordinal='4' />
+                <column datatype='string' name='End Station' ordinal='5' />
+                <column datatype='real' name='End Latitude' ordinal='6' />
+                <column datatype='real' name='End Longitude' ordinal='7' />
+                <column datatype='integer' name='Occurence' ordinal='8' />
+                <column datatype='real' name='Average Duration' ordinal='9' />
+                <column datatype='real' name='Percentage Member' ordinal='10' />
+                <column datatype='string' name='Location' ordinal='11' />
+              </columns>
+            </relation>
+            <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_june_2020.csv' table='[top_500_june_2020#csv]' type='table'>
+              <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                <column datatype='integer' name='Year' ordinal='0' />
+                <column datatype='string' name='Month' ordinal='1' />
+                <column datatype='string' name='Start Station' ordinal='2' />
+                <column datatype='real' name='Start Latitude' ordinal='3' />
+                <column datatype='real' name='Start Longitude' ordinal='4' />
+                <column datatype='string' name='End Station' ordinal='5' />
+                <column datatype='real' name='End Latitude' ordinal='6' />
+                <column datatype='real' name='End Longitude' ordinal='7' />
+                <column datatype='integer' name='Occurence' ordinal='8' />
+                <column datatype='real' name='Average Duration' ordinal='9' />
+                <column datatype='real' name='Percentage Member' ordinal='10' />
+                <column datatype='string' name='Location' ordinal='11' />
+              </columns>
+            </relation>
+            <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_may_2019.csv' table='[top_500_may_2019#csv]' type='table'>
+              <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                <column datatype='integer' name='Year' ordinal='0' />
+                <column datatype='string' name='Month' ordinal='1' />
+                <column datatype='string' name='Start Station' ordinal='2' />
+                <column datatype='real' name='Start Latitude' ordinal='3' />
+                <column datatype='real' name='Start Longitude' ordinal='4' />
+                <column datatype='string' name='End Station' ordinal='5' />
+                <column datatype='real' name='End Latitude' ordinal='6' />
+                <column datatype='real' name='End Longitude' ordinal='7' />
+                <column datatype='integer' name='Occurence' ordinal='8' />
+                <column datatype='real' name='Average Duration' ordinal='9' />
+                <column datatype='real' name='Percentage Member' ordinal='10' />
+                <column datatype='string' name='Location' ordinal='11' />
+              </columns>
+            </relation>
+            <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_may_2020.csv' table='[top_500_may_2020#csv]' type='table'>
+              <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                <column datatype='integer' name='Year' ordinal='0' />
+                <column datatype='string' name='Month' ordinal='1' />
+                <column datatype='string' name='Start Station' ordinal='2' />
+                <column datatype='real' name='Start Latitude' ordinal='3' />
+                <column datatype='real' name='Start Longitude' ordinal='4' />
+                <column datatype='string' name='End Station' ordinal='5' />
+                <column datatype='real' name='End Latitude' ordinal='6' />
+                <column datatype='real' name='End Longitude' ordinal='7' />
+                <column datatype='integer' name='Occurence' ordinal='8' />
+                <column datatype='real' name='Average Duration' ordinal='9' />
+                <column datatype='real' name='Percentage Member' ordinal='10' />
+                <column datatype='string' name='Location' ordinal='11' />
+              </columns>
+            </relation>
+            <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_november_2020.csv' table='[top_500_november_2020#csv]' type='table'>
+              <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                <column datatype='integer' name='Year' ordinal='0' />
+                <column datatype='string' name='Month' ordinal='1' />
+                <column datatype='string' name='Start Station' ordinal='2' />
+                <column datatype='real' name='Start Latitude' ordinal='3' />
+                <column datatype='real' name='Start Longitude' ordinal='4' />
+                <column datatype='string' name='End Station' ordinal='5' />
+                <column datatype='real' name='End Latitude' ordinal='6' />
+                <column datatype='real' name='End Longitude' ordinal='7' />
+                <column datatype='integer' name='Occurence' ordinal='8' />
+                <column datatype='real' name='Average Duration' ordinal='9' />
+                <column datatype='real' name='Percentage Member' ordinal='10' />
+                <column datatype='string' name='Location' ordinal='11' />
+              </columns>
+            </relation>
+            <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_october_2019.csv' table='[top_500_october_2019#csv]' type='table'>
+              <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                <column datatype='integer' name='Year' ordinal='0' />
+                <column datatype='string' name='Month' ordinal='1' />
+                <column datatype='string' name='Start Station' ordinal='2' />
+                <column datatype='real' name='Start Latitude' ordinal='3' />
+                <column datatype='real' name='Start Longitude' ordinal='4' />
+                <column datatype='string' name='End Station' ordinal='5' />
+                <column datatype='real' name='End Latitude' ordinal='6' />
+                <column datatype='real' name='End Longitude' ordinal='7' />
+                <column datatype='integer' name='Occurence' ordinal='8' />
+                <column datatype='real' name='Average Duration' ordinal='9' />
+                <column datatype='real' name='Percentage Member' ordinal='10' />
+                <column datatype='string' name='Location' ordinal='11' />
+              </columns>
+            </relation>
+            <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_october_2019.csv1' table='[top_500_october_2019#csv]' type='table'>
+              <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                <column datatype='integer' name='Year' ordinal='0' />
+                <column datatype='string' name='Month' ordinal='1' />
+                <column datatype='string' name='Start Station' ordinal='2' />
+                <column datatype='real' name='Start Latitude' ordinal='3' />
+                <column datatype='real' name='Start Longitude' ordinal='4' />
+                <column datatype='string' name='End Station' ordinal='5' />
+                <column datatype='real' name='End Latitude' ordinal='6' />
+                <column datatype='real' name='End Longitude' ordinal='7' />
+                <column datatype='integer' name='Occurence' ordinal='8' />
+                <column datatype='real' name='Average Duration' ordinal='9' />
+                <column datatype='real' name='Percentage Member' ordinal='10' />
+                <column datatype='string' name='Location' ordinal='11' />
+              </columns>
+            </relation>
+            <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_september_2019.csv' table='[top_500_september_2019#csv]' type='table'>
+              <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                <column datatype='integer' name='Year' ordinal='0' />
+                <column datatype='string' name='Month' ordinal='1' />
+                <column datatype='string' name='Start Station' ordinal='2' />
+                <column datatype='real' name='Start Latitude' ordinal='3' />
+                <column datatype='real' name='Start Longitude' ordinal='4' />
+                <column datatype='string' name='End Station' ordinal='5' />
+                <column datatype='real' name='End Latitude' ordinal='6' />
+                <column datatype='real' name='End Longitude' ordinal='7' />
+                <column datatype='integer' name='Occurence' ordinal='8' />
+                <column datatype='real' name='Average Duration' ordinal='9' />
+                <column datatype='real' name='Percentage Member' ordinal='10' />
+                <column datatype='string' name='Location' ordinal='11' />
+              </columns>
+            </relation>
+            <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_september_2020.csv' table='[top_500_september_2020#csv]' type='table'>
+              <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                <column datatype='integer' name='Year' ordinal='0' />
+                <column datatype='string' name='Month' ordinal='1' />
+                <column datatype='string' name='Start Station' ordinal='2' />
+                <column datatype='real' name='Start Latitude' ordinal='3' />
+                <column datatype='real' name='Start Longitude' ordinal='4' />
+                <column datatype='string' name='End Station' ordinal='5' />
+                <column datatype='real' name='End Latitude' ordinal='6' />
+                <column datatype='real' name='End Longitude' ordinal='7' />
+                <column datatype='integer' name='Occurence' ordinal='8' />
+                <column datatype='real' name='Average Duration' ordinal='9' />
+                <column datatype='real' name='Percentage Member' ordinal='10' />
+                <column datatype='string' name='Location' ordinal='11' />
+              </columns>
+            </relation>
+          </relation>
+          <relation connection='ogrdirect.11ku53r1yw39rr1asls3s0cv4zqj' name='stm_lignes_sig' table='[stm_lignes_sig]' type='table'>
+            <columns>
+              <column datatype='integer' name='route_id' ordinal='0' />
+              <column datatype='string' name='headsign' ordinal='1' />
+              <column datatype='string' name='route_name' ordinal='2' />
+              <column datatype='integer' name='shape_id' ordinal='3' />
+              <column datatype='string' name='service_id' ordinal='4' />
+              <column datatype='spatial' name='Geometry' ordinal='5' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[top_500_april_2019.csv+]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[top_500_april_2019.csv+]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[top_500_april_2019.csv_BB56A03D97BD41FE8AC417042AF12A1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[top_500_april_2019.csv+]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[top_500_april_2019.csv_BB56A03D97BD41FE8AC417042AF12A1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Start Station</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Start Station]</local-name>
+            <parent-name>[top_500_april_2019.csv+]</parent-name>
+            <remote-alias>Start Station</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[top_500_april_2019.csv_BB56A03D97BD41FE8AC417042AF12A1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Start Latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Start Latitude]</local-name>
+            <parent-name>[top_500_april_2019.csv+]</parent-name>
+            <remote-alias>Start Latitude</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[top_500_april_2019.csv_BB56A03D97BD41FE8AC417042AF12A1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Start Longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Start Longitude]</local-name>
+            <parent-name>[top_500_april_2019.csv+]</parent-name>
+            <remote-alias>Start Longitude</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[top_500_april_2019.csv_BB56A03D97BD41FE8AC417042AF12A1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>End Station</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[End Station]</local-name>
+            <parent-name>[top_500_april_2019.csv+]</parent-name>
+            <remote-alias>End Station</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[top_500_april_2019.csv_BB56A03D97BD41FE8AC417042AF12A1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>End Latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[End Latitude]</local-name>
+            <parent-name>[top_500_april_2019.csv+]</parent-name>
+            <remote-alias>End Latitude</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[top_500_april_2019.csv_BB56A03D97BD41FE8AC417042AF12A1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>End Longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[End Longitude]</local-name>
+            <parent-name>[top_500_april_2019.csv+]</parent-name>
+            <remote-alias>End Longitude</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[top_500_april_2019.csv_BB56A03D97BD41FE8AC417042AF12A1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Occurence</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Occurence]</local-name>
+            <parent-name>[top_500_april_2019.csv+]</parent-name>
+            <remote-alias>Occurence</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[top_500_april_2019.csv_BB56A03D97BD41FE8AC417042AF12A1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average Duration</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average Duration]</local-name>
+            <parent-name>[top_500_april_2019.csv+]</parent-name>
+            <remote-alias>Average Duration</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[top_500_april_2019.csv_BB56A03D97BD41FE8AC417042AF12A1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Percentage Member</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Percentage Member]</local-name>
+            <parent-name>[top_500_april_2019.csv+]</parent-name>
+            <remote-alias>Percentage Member</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[top_500_april_2019.csv_BB56A03D97BD41FE8AC417042AF12A1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[top_500_april_2019.csv+]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[top_500_april_2019.csv_BB56A03D97BD41FE8AC417042AF12A1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Table Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Table Name]</local-name>
+            <parent-name>[top_500_april_2019.csv+]</parent-name>
+            <remote-alias>Table Name</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[top_500_april_2019.csv_BB56A03D97BD41FE8AC417042AF12A1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>route_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[route_id]</local-name>
+            <parent-name>[stm_lignes_sig]</parent-name>
+            <remote-alias>route_id</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stm_lignes_sig_D2710359A6C2400F860A75AEC62C5741]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>headsign</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[headsign]</local-name>
+            <parent-name>[stm_lignes_sig]</parent-name>
+            <remote-alias>headsign</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stm_lignes_sig_D2710359A6C2400F860A75AEC62C5741]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>route_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[route_name]</local-name>
+            <parent-name>[stm_lignes_sig]</parent-name>
+            <remote-alias>route_name</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stm_lignes_sig_D2710359A6C2400F860A75AEC62C5741]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>shape_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[shape_id]</local-name>
+            <parent-name>[stm_lignes_sig]</parent-name>
+            <remote-alias>shape_id</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stm_lignes_sig_D2710359A6C2400F860A75AEC62C5741]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>service_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[service_id]</local-name>
+            <parent-name>[stm_lignes_sig]</parent-name>
+            <remote-alias>service_id</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stm_lignes_sig_D2710359A6C2400F860A75AEC62C5741]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geometry</remote-name>
+            <remote-type>8</remote-type>
+            <local-name>[Geometry]</local-name>
+            <parent-name>[stm_lignes_sig]</parent-name>
+            <remote-alias>Geometry</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>spatial</local-type>
+            <aggregation>Collect</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[stm_lignes_sig_D2710359A6C2400F860A75AEC62C5741]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Average Duration1' datatype='real' name='[Average Duration]' role='measure' type='quantitative' />
+      <column caption='Origin Ride Points' datatype='spatial' name='[Calculation_1531223919067058180]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='MAKEPOINT([Start Latitude], [Start Longitude])' />
+      </column>
+      <column caption='Destination Ride Points' datatype='spatial' name='[Calculation_1531223919067213829]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='MAKEPOINT([End Latitude], [End Longitude])' />
+      </column>
+      <column caption='Bixi Ride Route' datatype='spatial' name='[Calculation_1531223919067344902]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='MAKELINE([Calculation_1531223919067058180], [Calculation_1531223919067213829])' />
+      </column>
+      <column caption='Bixi Ride Route Name' datatype='string' name='[Calculation_1531223919067500551]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='[Start Station]+&quot; - &quot;+[End Station]' />
+      </column>
+      <column caption='Year String' datatype='string' name='[Calculation_1531223919081910283]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='STR([Year])' />
+      </column>
+      <column aggregation='Avg' datatype='real' name='[End Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[End Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Month1' datatype='string' name='[Month]' role='dimension' type='nominal' />
+      <column aggregation='Avg' datatype='real' name='[Start Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Start Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='stm_lignes_sig' datatype='table' name='[__tableau_internal_object_id__].[stm_lignes_sig_D2710359A6C2400F860A75AEC62C5741]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='top_500_april_2019.csv' datatype='table' name='[__tableau_internal_object_id__].[top_500_april_2019.csv_BB56A03D97BD41FE8AC417042AF12A1F]' role='measure' type='quantitative' />
+      <column caption='Headsign' datatype='string' name='[headsign]' role='dimension' type='nominal' />
+      <column caption='Route Id' datatype='integer' name='[route_id]' role='dimension' type='ordinal' />
+      <column caption='Route Name' datatype='string' name='[route_name]' role='dimension' type='nominal' />
+      <column caption='Service Id' datatype='string' name='[service_id]' role='dimension' type='nominal' />
+      <column caption='Shape Id' datatype='integer' name='[shape_id]' role='dimension' type='ordinal' />
+      <column-instance column='[Calculation_1531223919081910283]' derivation='None' name='[none:Calculation_1531223919081910283:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='1000' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Calculation_1531223919081910283:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;2019&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;2020&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='stm_lignes_sig' id='stm_lignes_sig_D2710359A6C2400F860A75AEC62C5741'>
+            <properties context=''>
+              <relation connection='ogrdirect.11ku53r1yw39rr1asls3s0cv4zqj' name='stm_lignes_sig' table='[stm_lignes_sig]' type='table'>
+                <columns>
+                  <column datatype='integer' name='route_id' ordinal='0' />
+                  <column datatype='string' name='headsign' ordinal='1' />
+                  <column datatype='string' name='route_name' ordinal='2' />
+                  <column datatype='integer' name='shape_id' ordinal='3' />
+                  <column datatype='string' name='service_id' ordinal='4' />
+                  <column datatype='spatial' name='Geometry' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='top_500_april_2019.csv' id='top_500_april_2019.csv_BB56A03D97BD41FE8AC417042AF12A1F'>
+            <properties context=''>
+              <relation all='true' name='top_500_april_2019.csv+' type='union'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='integer' name='Year' />
+                  <column datatype='string' name='Month' />
+                  <column datatype='string' name='Start Station' />
+                  <column datatype='real' name='Start Latitude' />
+                  <column datatype='real' name='Start Longitude' />
+                  <column datatype='string' name='End Station' />
+                  <column datatype='real' name='End Latitude' />
+                  <column datatype='real' name='End Longitude' />
+                  <column datatype='integer' name='Occurence' />
+                  <column datatype='real' name='Average Duration' />
+                  <column datatype='real' name='Percentage Member' />
+                  <column datatype='string' name='Location' />
+                  <column datatype='string' name='Table Name' />
+                </columns>
+                <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_april_2019.csv' table='[top_500_april_2019#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                    <column datatype='integer' name='Year' ordinal='0' />
+                    <column datatype='string' name='Month' ordinal='1' />
+                    <column datatype='string' name='Start Station' ordinal='2' />
+                    <column datatype='real' name='Start Latitude' ordinal='3' />
+                    <column datatype='real' name='Start Longitude' ordinal='4' />
+                    <column datatype='string' name='End Station' ordinal='5' />
+                    <column datatype='real' name='End Latitude' ordinal='6' />
+                    <column datatype='real' name='End Longitude' ordinal='7' />
+                    <column datatype='integer' name='Occurence' ordinal='8' />
+                    <column datatype='real' name='Average Duration' ordinal='9' />
+                    <column datatype='real' name='Percentage Member' ordinal='10' />
+                    <column datatype='string' name='Location' ordinal='11' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_april_2020.csv' table='[top_500_april_2020#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                    <column datatype='integer' name='Year' ordinal='0' />
+                    <column datatype='string' name='Month' ordinal='1' />
+                    <column datatype='string' name='Start Station' ordinal='2' />
+                    <column datatype='real' name='Start Latitude' ordinal='3' />
+                    <column datatype='real' name='Start Longitude' ordinal='4' />
+                    <column datatype='string' name='End Station' ordinal='5' />
+                    <column datatype='real' name='End Latitude' ordinal='6' />
+                    <column datatype='real' name='End Longitude' ordinal='7' />
+                    <column datatype='integer' name='Occurence' ordinal='8' />
+                    <column datatype='real' name='Average Duration' ordinal='9' />
+                    <column datatype='real' name='Percentage Member' ordinal='10' />
+                    <column datatype='string' name='Location' ordinal='11' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_august_2019.csv' table='[top_500_august_2019#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                    <column datatype='integer' name='Year' ordinal='0' />
+                    <column datatype='string' name='Month' ordinal='1' />
+                    <column datatype='string' name='Start Station' ordinal='2' />
+                    <column datatype='real' name='Start Latitude' ordinal='3' />
+                    <column datatype='real' name='Start Longitude' ordinal='4' />
+                    <column datatype='string' name='End Station' ordinal='5' />
+                    <column datatype='real' name='End Latitude' ordinal='6' />
+                    <column datatype='real' name='End Longitude' ordinal='7' />
+                    <column datatype='integer' name='Occurence' ordinal='8' />
+                    <column datatype='real' name='Average Duration' ordinal='9' />
+                    <column datatype='real' name='Percentage Member' ordinal='10' />
+                    <column datatype='string' name='Location' ordinal='11' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_august_2020.csv' table='[top_500_august_2020#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                    <column datatype='integer' name='Year' ordinal='0' />
+                    <column datatype='string' name='Month' ordinal='1' />
+                    <column datatype='string' name='Start Station' ordinal='2' />
+                    <column datatype='real' name='Start Latitude' ordinal='3' />
+                    <column datatype='real' name='Start Longitude' ordinal='4' />
+                    <column datatype='string' name='End Station' ordinal='5' />
+                    <column datatype='real' name='End Latitude' ordinal='6' />
+                    <column datatype='real' name='End Longitude' ordinal='7' />
+                    <column datatype='integer' name='Occurence' ordinal='8' />
+                    <column datatype='real' name='Average Duration' ordinal='9' />
+                    <column datatype='real' name='Percentage Member' ordinal='10' />
+                    <column datatype='string' name='Location' ordinal='11' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_july_2019.csv' table='[top_500_july_2019#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                    <column datatype='integer' name='Year' ordinal='0' />
+                    <column datatype='string' name='Month' ordinal='1' />
+                    <column datatype='string' name='Start Station' ordinal='2' />
+                    <column datatype='real' name='Start Latitude' ordinal='3' />
+                    <column datatype='real' name='Start Longitude' ordinal='4' />
+                    <column datatype='string' name='End Station' ordinal='5' />
+                    <column datatype='real' name='End Latitude' ordinal='6' />
+                    <column datatype='real' name='End Longitude' ordinal='7' />
+                    <column datatype='integer' name='Occurence' ordinal='8' />
+                    <column datatype='real' name='Average Duration' ordinal='9' />
+                    <column datatype='real' name='Percentage Member' ordinal='10' />
+                    <column datatype='string' name='Location' ordinal='11' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_july_2020.csv' table='[top_500_july_2020#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                    <column datatype='integer' name='Year' ordinal='0' />
+                    <column datatype='string' name='Month' ordinal='1' />
+                    <column datatype='string' name='Start Station' ordinal='2' />
+                    <column datatype='real' name='Start Latitude' ordinal='3' />
+                    <column datatype='real' name='Start Longitude' ordinal='4' />
+                    <column datatype='string' name='End Station' ordinal='5' />
+                    <column datatype='real' name='End Latitude' ordinal='6' />
+                    <column datatype='real' name='End Longitude' ordinal='7' />
+                    <column datatype='integer' name='Occurence' ordinal='8' />
+                    <column datatype='real' name='Average Duration' ordinal='9' />
+                    <column datatype='real' name='Percentage Member' ordinal='10' />
+                    <column datatype='string' name='Location' ordinal='11' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_june_2019.csv' table='[top_500_june_2019#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                    <column datatype='integer' name='Year' ordinal='0' />
+                    <column datatype='string' name='Month' ordinal='1' />
+                    <column datatype='string' name='Start Station' ordinal='2' />
+                    <column datatype='real' name='Start Latitude' ordinal='3' />
+                    <column datatype='real' name='Start Longitude' ordinal='4' />
+                    <column datatype='string' name='End Station' ordinal='5' />
+                    <column datatype='real' name='End Latitude' ordinal='6' />
+                    <column datatype='real' name='End Longitude' ordinal='7' />
+                    <column datatype='integer' name='Occurence' ordinal='8' />
+                    <column datatype='real' name='Average Duration' ordinal='9' />
+                    <column datatype='real' name='Percentage Member' ordinal='10' />
+                    <column datatype='string' name='Location' ordinal='11' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_june_2020.csv' table='[top_500_june_2020#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                    <column datatype='integer' name='Year' ordinal='0' />
+                    <column datatype='string' name='Month' ordinal='1' />
+                    <column datatype='string' name='Start Station' ordinal='2' />
+                    <column datatype='real' name='Start Latitude' ordinal='3' />
+                    <column datatype='real' name='Start Longitude' ordinal='4' />
+                    <column datatype='string' name='End Station' ordinal='5' />
+                    <column datatype='real' name='End Latitude' ordinal='6' />
+                    <column datatype='real' name='End Longitude' ordinal='7' />
+                    <column datatype='integer' name='Occurence' ordinal='8' />
+                    <column datatype='real' name='Average Duration' ordinal='9' />
+                    <column datatype='real' name='Percentage Member' ordinal='10' />
+                    <column datatype='string' name='Location' ordinal='11' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_may_2019.csv' table='[top_500_may_2019#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                    <column datatype='integer' name='Year' ordinal='0' />
+                    <column datatype='string' name='Month' ordinal='1' />
+                    <column datatype='string' name='Start Station' ordinal='2' />
+                    <column datatype='real' name='Start Latitude' ordinal='3' />
+                    <column datatype='real' name='Start Longitude' ordinal='4' />
+                    <column datatype='string' name='End Station' ordinal='5' />
+                    <column datatype='real' name='End Latitude' ordinal='6' />
+                    <column datatype='real' name='End Longitude' ordinal='7' />
+                    <column datatype='integer' name='Occurence' ordinal='8' />
+                    <column datatype='real' name='Average Duration' ordinal='9' />
+                    <column datatype='real' name='Percentage Member' ordinal='10' />
+                    <column datatype='string' name='Location' ordinal='11' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_may_2020.csv' table='[top_500_may_2020#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                    <column datatype='integer' name='Year' ordinal='0' />
+                    <column datatype='string' name='Month' ordinal='1' />
+                    <column datatype='string' name='Start Station' ordinal='2' />
+                    <column datatype='real' name='Start Latitude' ordinal='3' />
+                    <column datatype='real' name='Start Longitude' ordinal='4' />
+                    <column datatype='string' name='End Station' ordinal='5' />
+                    <column datatype='real' name='End Latitude' ordinal='6' />
+                    <column datatype='real' name='End Longitude' ordinal='7' />
+                    <column datatype='integer' name='Occurence' ordinal='8' />
+                    <column datatype='real' name='Average Duration' ordinal='9' />
+                    <column datatype='real' name='Percentage Member' ordinal='10' />
+                    <column datatype='string' name='Location' ordinal='11' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_november_2020.csv' table='[top_500_november_2020#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                    <column datatype='integer' name='Year' ordinal='0' />
+                    <column datatype='string' name='Month' ordinal='1' />
+                    <column datatype='string' name='Start Station' ordinal='2' />
+                    <column datatype='real' name='Start Latitude' ordinal='3' />
+                    <column datatype='real' name='Start Longitude' ordinal='4' />
+                    <column datatype='string' name='End Station' ordinal='5' />
+                    <column datatype='real' name='End Latitude' ordinal='6' />
+                    <column datatype='real' name='End Longitude' ordinal='7' />
+                    <column datatype='integer' name='Occurence' ordinal='8' />
+                    <column datatype='real' name='Average Duration' ordinal='9' />
+                    <column datatype='real' name='Percentage Member' ordinal='10' />
+                    <column datatype='string' name='Location' ordinal='11' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_october_2019.csv' table='[top_500_october_2019#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                    <column datatype='integer' name='Year' ordinal='0' />
+                    <column datatype='string' name='Month' ordinal='1' />
+                    <column datatype='string' name='Start Station' ordinal='2' />
+                    <column datatype='real' name='Start Latitude' ordinal='3' />
+                    <column datatype='real' name='Start Longitude' ordinal='4' />
+                    <column datatype='string' name='End Station' ordinal='5' />
+                    <column datatype='real' name='End Latitude' ordinal='6' />
+                    <column datatype='real' name='End Longitude' ordinal='7' />
+                    <column datatype='integer' name='Occurence' ordinal='8' />
+                    <column datatype='real' name='Average Duration' ordinal='9' />
+                    <column datatype='real' name='Percentage Member' ordinal='10' />
+                    <column datatype='string' name='Location' ordinal='11' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_october_2019.csv1' table='[top_500_october_2019#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                    <column datatype='integer' name='Year' ordinal='0' />
+                    <column datatype='string' name='Month' ordinal='1' />
+                    <column datatype='string' name='Start Station' ordinal='2' />
+                    <column datatype='real' name='Start Latitude' ordinal='3' />
+                    <column datatype='real' name='Start Longitude' ordinal='4' />
+                    <column datatype='string' name='End Station' ordinal='5' />
+                    <column datatype='real' name='End Latitude' ordinal='6' />
+                    <column datatype='real' name='End Longitude' ordinal='7' />
+                    <column datatype='integer' name='Occurence' ordinal='8' />
+                    <column datatype='real' name='Average Duration' ordinal='9' />
+                    <column datatype='real' name='Percentage Member' ordinal='10' />
+                    <column datatype='string' name='Location' ordinal='11' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_september_2019.csv' table='[top_500_september_2019#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                    <column datatype='integer' name='Year' ordinal='0' />
+                    <column datatype='string' name='Month' ordinal='1' />
+                    <column datatype='string' name='Start Station' ordinal='2' />
+                    <column datatype='real' name='Start Latitude' ordinal='3' />
+                    <column datatype='real' name='Start Longitude' ordinal='4' />
+                    <column datatype='string' name='End Station' ordinal='5' />
+                    <column datatype='real' name='End Latitude' ordinal='6' />
+                    <column datatype='real' name='End Longitude' ordinal='7' />
+                    <column datatype='integer' name='Occurence' ordinal='8' />
+                    <column datatype='real' name='Average Duration' ordinal='9' />
+                    <column datatype='real' name='Percentage Member' ordinal='10' />
+                    <column datatype='string' name='Location' ordinal='11' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0wmltz21q3asy01627pgq1xghvvh' name='top_500_september_2020.csv' table='[top_500_september_2020#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                    <column datatype='integer' name='Year' ordinal='0' />
+                    <column datatype='string' name='Month' ordinal='1' />
+                    <column datatype='string' name='Start Station' ordinal='2' />
+                    <column datatype='real' name='Start Latitude' ordinal='3' />
+                    <column datatype='real' name='Start Longitude' ordinal='4' />
+                    <column datatype='string' name='End Station' ordinal='5' />
+                    <column datatype='real' name='End Latitude' ordinal='6' />
+                    <column datatype='real' name='End Longitude' ordinal='7' />
+                    <column datatype='integer' name='Occurence' ordinal='8' />
+                    <column datatype='real' name='Average Duration' ordinal='9' />
+                    <column datatype='real' name='Percentage Member' ordinal='10' />
+                    <column datatype='string' name='Location' ordinal='11' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[Location]' />
+              <expression _.fcp.RelationshipCalculations.false...op='[&quot;Montreal&quot;]' _.fcp.RelationshipCalculations.true...op='&quot;Montreal&quot;' />
+            </expression>
+            <first-end-point object-id='top_500_april_2019.csv_BB56A03D97BD41FE8AC417042AF12A1F' />
+            <second-end-point object-id='stm_lignes_sig_D2710359A6C2400F860A75AEC62C5741' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Annee 2019 member'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='top_500_april_2019.csv+ (Multiple Connections)' name='federated.1w57ij90zfln271ctkki619g3yky' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1w57ij90zfln271ctkki619g3yky'>
+            <column caption='Average Duration1' datatype='real' name='[Average Duration]' role='measure' type='quantitative' />
+            <column caption='Origin Ride Points' datatype='spatial' name='[Calculation_1531223919067058180]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='MAKEPOINT([Start Latitude], [Start Longitude])' />
+            </column>
+            <column caption='Destination Ride Points' datatype='spatial' name='[Calculation_1531223919067213829]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='MAKEPOINT([End Latitude], [End Longitude])' />
+            </column>
+            <column caption='Bixi Ride Route' datatype='spatial' name='[Calculation_1531223919067344902]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='MAKELINE([Calculation_1531223919067058180], [Calculation_1531223919067213829])' />
+            </column>
+            <column caption='Bixi Ride Route Name' datatype='string' name='[Calculation_1531223919067500551]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Start Station]+&quot; - &quot;+[End Station]' />
+            </column>
+            <column caption='Year String' datatype='string' name='[Calculation_1531223919081910283]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='STR([Year])' />
+            </column>
+            <column aggregation='Avg' datatype='real' name='[End Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[End Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column datatype='string' name='[End Station]' role='dimension' type='nominal' />
+            <column datatype='spatial' name='[Geometry]' role='measure' type='nominal' />
+            <column caption='Month1' datatype='string' name='[Month]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Occurence]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Percentage Member]' role='measure' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[Start Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[Start Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column datatype='string' name='[Start Station]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Calculation_1531223919067344902]' derivation='Collect' name='[clct:Calculation_1531223919067344902:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Average Duration]' derivation='None' name='[none:Average Duration:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1531223919067500551]' derivation='None' name='[none:Calculation_1531223919067500551:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1531223919081910283]' derivation='None' name='[none:Calculation_1531223919081910283:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Month]' derivation='None' name='[none:Month:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Occurence]' derivation='None' name='[none:Occurence:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Percentage Member]' derivation='None' name='[none:Percentage Member:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[route_name]' derivation='None' name='[none:route_name:nk]' pivot='key' type='nominal' />
+            <column caption='Route Name' datatype='string' name='[route_name]' role='dimension' type='nominal' />
+            <column-instance column='[Average Duration]' derivation='Sum' name='[sum:Average Duration:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Average Duration:qk]' included-values='in-range'>
+            <min>75.41176471</min>
+            <max>1208.0</max>
+          </filter>
+          <filter class='categorical' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Calculation_1531223919081910283:nk]'>
+            <groupfilter function='member' level='[none:Calculation_1531223919081910283:nk]' member='&quot;2019&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Month:nk]'>
+            <groupfilter function='level-members' level='[none:Month:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]' included-values='in-range'>
+            <min>10</min>
+            <max>1565</max>
+          </filter>
+          <filter class='quantitative' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]' included-values='in-range'>
+            <min>63.0</min>
+            <max>100.0</max>
+          </filter>
+          <filter class='categorical' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:route_name:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:route_name:nk]' member='&quot;bleue&quot;' />
+              <groupfilter function='member' level='[none:route_name:nk]' member='&quot;jaune&quot;' />
+              <groupfilter function='member' level='[none:route_name:nk]' member='&quot;orange&quot;' />
+              <groupfilter function='member' level='[none:route_name:nk]' member='&quot;verte&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:Calculation_1531223919081910283:nk]</column>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:Month:nk]</column>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]</column>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]</column>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:route_name:nk]</column>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:Average Duration:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1w57ij90zfln271ctkki619g3yky].[Longitude (generated)]' field-type='quantitative' max='-8168928.8910040241' min='-8217350.4219743712' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1w57ij90zfln271ctkki619g3yky].[Latitude (generated)]' field-type='quantitative' max='5717410.2368705589' min='5687991.5728953583' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]' max='100.0' min='0.0' palette='red_green_gold_diverging_10_0' type='interpolated' />
+            <encoding attr='size' field='[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]' field-type='quantitative' max-size='1' min-size='0' type='centersize' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+            <format attr='enabled' id='tunnel-service-link-track-case' value='true' />
+            <format attr='enabled' id='tunnel-street_limited-case' value='true' />
+            <format attr='enabled' id='tunnel-street-case' value='true' />
+            <format attr='enabled' id='tunnel-secondary-tertiary-case' value='true' />
+            <format attr='enabled' id='tunnel-primary-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk_link-case' value='true' />
+            <format attr='enabled' id='tunnel-motorway_link-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk-case' value='true' />
+            <format attr='enabled' id='tunnel-motorway-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk_link' value='true' />
+            <format attr='enabled' id='tunnel-motorway_link' value='true' />
+            <format attr='enabled' id='tunnel-service-link-track' value='true' />
+            <format attr='enabled' id='tunnel-street_limited' value='true' />
+            <format attr='enabled' id='tunnel-street' value='true' />
+            <format attr='enabled' id='tunnel-tertiary' value='true' />
+            <format attr='enabled' id='tunnel-secondary' value='true' />
+            <format attr='enabled' id='tunnel-primary' value='true' />
+            <format attr='enabled' id='tunnel-trunk' value='true' />
+            <format attr='enabled' id='tunnel-motorway' value='true' />
+            <format attr='enabled' id='road-street-low' value='true' />
+            <format attr='enabled' id='road-street_limited-low' value='true' />
+            <format attr='enabled' id='road-pedestrian-case' value='true' />
+            <format attr='enabled' id='road-service-link-track-case' value='true' />
+            <format attr='enabled' id='road-street_limited-case' value='true' />
+            <format attr='enabled' id='road-street-case' value='true' />
+            <format attr='enabled' id='road-tertiary-case' value='true' />
+            <format attr='enabled' id='road-secondary-case' value='true' />
+            <format attr='enabled' id='road-primary-case' value='true' />
+            <format attr='enabled' id='road-motorway_link-case' value='true' />
+            <format attr='enabled' id='road-trunk_link-case' value='true' />
+            <format attr='enabled' id='road-trunk-case' value='true' />
+            <format attr='enabled' id='road-motorway-case' value='true' />
+            <format attr='enabled' id='road-trunk_link' value='true' />
+            <format attr='enabled' id='road-motorway_link' value='true' />
+            <format attr='enabled' id='road-path' value='true' />
+            <format attr='enabled' id='road-pedestrian' value='true' />
+            <format attr='enabled' id='road-polygon' value='true' />
+            <format attr='enabled' id='road-service-link-track' value='true' />
+            <format attr='enabled' id='road-street_limited' value='true' />
+            <format attr='enabled' id='road-street' value='true' />
+            <format attr='enabled' id='road-tertiary' value='true' />
+            <format attr='enabled' id='road-secondary' value='true' />
+            <format attr='enabled' id='road-primary' value='true' />
+            <format attr='enabled' id='road-trunk' value='true' />
+            <format attr='enabled' id='road-motorway' value='true' />
+            <format attr='enabled' id='road-rail' value='true' />
+            <format attr='enabled' id='road-rail-tracks' value='true' />
+            <format attr='enabled' id='bridge-street-low' value='true' />
+            <format attr='enabled' id='bridge-street_limited-low' value='true' />
+            <format attr='enabled' id='bridge-pedestrian-case' value='true' />
+            <format attr='enabled' id='bridge-service-link-track-case' value='true' />
+            <format attr='enabled' id='bridge-street_limited-case' value='true' />
+            <format attr='enabled' id='bridge-street-case' value='true' />
+            <format attr='enabled' id='bridge-tertiary-case' value='true' />
+            <format attr='enabled' id='bridge-secondary-case' value='true' />
+            <format attr='enabled' id='bridge-primary-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-case' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-case' value='true' />
+            <format attr='enabled' id='bridge-trunk-case' value='true' />
+            <format attr='enabled' id='bridge-motorway-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link' value='true' />
+            <format attr='enabled' id='bridge-motorway_link' value='true' />
+            <format attr='enabled' id='bridge-path' value='true' />
+            <format attr='enabled' id='bridge-pedestrian' value='true' />
+            <format attr='enabled' id='bridge-service-link-track' value='true' />
+            <format attr='enabled' id='bridge-street_limited' value='true' />
+            <format attr='enabled' id='bridge-street' value='true' />
+            <format attr='enabled' id='bridge-tertiary' value='true' />
+            <format attr='enabled' id='bridge-secondary' value='true' />
+            <format attr='enabled' id='bridge-primary' value='true' />
+            <format attr='enabled' id='bridge-trunk' value='true' />
+            <format attr='enabled' id='bridge-motorway' value='true' />
+            <format attr='enabled' id='bridge-rail' value='true' />
+            <format attr='enabled' id='bridge-rail-tracks' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-2-case' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-2-case' value='true' />
+            <format attr='enabled' id='bridge-trunk-2-case' value='true' />
+            <format attr='enabled' id='bridge-motorway-2-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-2' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-2' value='true' />
+            <format attr='enabled' id='bridge-trunk-2' value='true' />
+            <format attr='enabled' id='bridge-motorway-2' value='true' />
+            <format attr='enabled' id='road-shields-2-white' value='true' />
+            <format attr='enabled' id='road-shields-2-black' value='true' />
+            <format attr='enabled' id='road-shields-1-white' value='true' />
+            <format attr='enabled' id='road-shields-1-black' value='true' />
+            <format attr='enabled' id='road-label-small' value='true' />
+            <format attr='enabled' id='road-label-big' value='true' />
+            <format attr='enabled' id='place-village' value='true' />
+            <format attr='enabled' id='place-town' value='true' />
+            <format attr='enabled' id='place-islands' value='true' />
+            <format attr='enabled' id='place-islands-2' value='true' />
+            <format attr='enabled' id='place-city-sm' value='true' />
+            <format attr='enabled' id='place-city-md-s' value='true' />
+            <format attr='enabled' id='place-city-md-n' value='true' />
+            <format attr='enabled' id='place-city-lg-s' value='true' />
+            <format attr='enabled' id='place-city-lg-n' value='true' />
+            <format attr='enabled' id='place-capital-s' value='true' />
+            <format attr='enabled' id='place-capital-n' value='true' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='normal' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.1w57ij90zfln271ctkki619g3yky].[none:Calculation_1531223919081910283:nk]' value='Year '>
+              <formatted-text>
+                <run>Year </run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.1w57ij90zfln271ctkki619g3yky].[none:Month:nk]' value='Month&#10;'>
+              <formatted-text>
+                <run>Month&#10;</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.1w57ij90zfln271ctkki619g3yky].[none:Average Duration:qk]' value='Average Duration'>
+              <formatted-text>
+                <run>Average Duration</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes _.fcp.Layers.true...customization-axis='layer'>
+          <_.fcp.Layers.true...pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </_.fcp.Layers.true...pane>
+          <pane _.fcp.Layers.true...generated-title='top_500_april_2019.csv.Bixi Ride Route' id='0' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]' />
+              <size column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]' />
+              <lod column='[federated.1w57ij90zfln271ctkki619g3yky].[clct:Calculation_1531223919067344902:nk]' />
+              <lod column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Calculation_1531223919067500551:nk]' />
+              <lod column='[federated.1w57ij90zfln271ctkki619g3yky].[sum:Average Duration:qk]' />
+              <geometry column='[federated.1w57ij90zfln271ctkki619g3yky].[clct:Calculation_1531223919067344902:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.3827105760574341' />
+              </style-rule>
+            </style>
+          </pane>
+          <_.fcp.Layers.true...pane generated-title='stm_lignes_sig' id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1w57ij90zfln271ctkki619g3yky].[clct:Geometry:nk]' />
+              <lod column='[federated.1w57ij90zfln271ctkki619g3yky].[none:route_name:nk]' />
+              <geometry column='[federated.1w57ij90zfln271ctkki619g3yky].[clct:Geometry:nk]' />
+            </encodings>
+          </_.fcp.Layers.true...pane>
+        </panes>
+        <rows>[federated.1w57ij90zfln271ctkki619g3yky].[Latitude (generated)]</rows>
+        <cols>[federated.1w57ij90zfln271ctkki619g3yky].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{00C75EDC-B46F-430A-BD12-814BC94AEDE7}' />
+    </worksheet>
+    <worksheet name='Annee 2019 non-member'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='top_500_april_2019.csv+ (Multiple Connections)' name='federated.1w57ij90zfln271ctkki619g3yky' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1w57ij90zfln271ctkki619g3yky'>
+            <column caption='Average Duration1' datatype='real' name='[Average Duration]' role='measure' type='quantitative' />
+            <column caption='Origin Ride Points' datatype='spatial' name='[Calculation_1531223919067058180]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='MAKEPOINT([Start Latitude], [Start Longitude])' />
+            </column>
+            <column caption='Destination Ride Points' datatype='spatial' name='[Calculation_1531223919067213829]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='MAKEPOINT([End Latitude], [End Longitude])' />
+            </column>
+            <column caption='Bixi Ride Route' datatype='spatial' name='[Calculation_1531223919067344902]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='MAKELINE([Calculation_1531223919067058180], [Calculation_1531223919067213829])' />
+            </column>
+            <column caption='Bixi Ride Route Name' datatype='string' name='[Calculation_1531223919067500551]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Start Station]+&quot; - &quot;+[End Station]' />
+            </column>
+            <column caption='Year String' datatype='string' name='[Calculation_1531223919081910283]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='STR([Year])' />
+            </column>
+            <column aggregation='Avg' datatype='real' name='[End Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[End Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column datatype='string' name='[End Station]' role='dimension' type='nominal' />
+            <column datatype='spatial' name='[Geometry]' role='measure' type='nominal' />
+            <column caption='Month1' datatype='string' name='[Month]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Occurence]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Percentage Member]' role='measure' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[Start Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[Start Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column datatype='string' name='[Start Station]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Calculation_1531223919067344902]' derivation='Collect' name='[clct:Calculation_1531223919067344902:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Average Duration]' derivation='None' name='[none:Average Duration:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1531223919067500551]' derivation='None' name='[none:Calculation_1531223919067500551:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1531223919081910283]' derivation='None' name='[none:Calculation_1531223919081910283:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Month]' derivation='None' name='[none:Month:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Occurence]' derivation='None' name='[none:Occurence:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Percentage Member]' derivation='None' name='[none:Percentage Member:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[route_name]' derivation='None' name='[none:route_name:nk]' pivot='key' type='nominal' />
+            <column caption='Route Name' datatype='string' name='[route_name]' role='dimension' type='nominal' />
+            <column-instance column='[Average Duration]' derivation='Sum' name='[sum:Average Duration:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Average Duration:qk]' included-values='in-range'>
+            <min>1610.0</min>
+            <max>3748.4666670000001</max>
+          </filter>
+          <filter class='categorical' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Calculation_1531223919081910283:nk]'>
+            <groupfilter function='member' level='[none:Calculation_1531223919081910283:nk]' member='&quot;2019&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Month:nk]'>
+            <groupfilter function='member' level='[none:Month:nk]' member='&quot;june&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]' included-values='in-range'>
+            <min>10</min>
+            <max>1565</max>
+          </filter>
+          <filter class='quantitative' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]' included-values='in-range'>
+            <min>0.0</min>
+            <max>100.0</max>
+          </filter>
+          <filter class='categorical' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:route_name:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:route_name:nk]' member='&quot;bleue&quot;' />
+              <groupfilter function='member' level='[none:route_name:nk]' member='&quot;jaune&quot;' />
+              <groupfilter function='member' level='[none:route_name:nk]' member='&quot;orange&quot;' />
+              <groupfilter function='member' level='[none:route_name:nk]' member='&quot;verte&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:Calculation_1531223919081910283:nk]</column>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:Month:nk]</column>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]</column>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]</column>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:route_name:nk]</column>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:Average Duration:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1w57ij90zfln271ctkki619g3yky].[Longitude (generated)]' field-type='quantitative' max='-8170493.8327250946' min='-8214560.9523763228' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1w57ij90zfln271ctkki619g3yky].[Latitude (generated)]' field-type='quantitative' max='5714538.0642391201' min='5687764.9375040643' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]' max='100.0' min='0.0' palette='red_green_gold_diverging_10_0' type='interpolated' />
+            <encoding attr='size' field='[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]' field-type='quantitative' max-size='1' min-size='0' type='centersize' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+            <format attr='enabled' id='tunnel-service-link-track-case' value='true' />
+            <format attr='enabled' id='tunnel-street_limited-case' value='true' />
+            <format attr='enabled' id='tunnel-street-case' value='true' />
+            <format attr='enabled' id='tunnel-secondary-tertiary-case' value='true' />
+            <format attr='enabled' id='tunnel-primary-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk_link-case' value='true' />
+            <format attr='enabled' id='tunnel-motorway_link-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk-case' value='true' />
+            <format attr='enabled' id='tunnel-motorway-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk_link' value='true' />
+            <format attr='enabled' id='tunnel-motorway_link' value='true' />
+            <format attr='enabled' id='tunnel-service-link-track' value='true' />
+            <format attr='enabled' id='tunnel-street_limited' value='true' />
+            <format attr='enabled' id='tunnel-street' value='true' />
+            <format attr='enabled' id='tunnel-tertiary' value='true' />
+            <format attr='enabled' id='tunnel-secondary' value='true' />
+            <format attr='enabled' id='tunnel-primary' value='true' />
+            <format attr='enabled' id='tunnel-trunk' value='true' />
+            <format attr='enabled' id='tunnel-motorway' value='true' />
+            <format attr='enabled' id='road-street-low' value='true' />
+            <format attr='enabled' id='road-street_limited-low' value='true' />
+            <format attr='enabled' id='road-pedestrian-case' value='true' />
+            <format attr='enabled' id='road-service-link-track-case' value='true' />
+            <format attr='enabled' id='road-street_limited-case' value='true' />
+            <format attr='enabled' id='road-street-case' value='true' />
+            <format attr='enabled' id='road-tertiary-case' value='true' />
+            <format attr='enabled' id='road-secondary-case' value='true' />
+            <format attr='enabled' id='road-primary-case' value='true' />
+            <format attr='enabled' id='road-motorway_link-case' value='true' />
+            <format attr='enabled' id='road-trunk_link-case' value='true' />
+            <format attr='enabled' id='road-trunk-case' value='true' />
+            <format attr='enabled' id='road-motorway-case' value='true' />
+            <format attr='enabled' id='road-trunk_link' value='true' />
+            <format attr='enabled' id='road-motorway_link' value='true' />
+            <format attr='enabled' id='road-path' value='true' />
+            <format attr='enabled' id='road-pedestrian' value='true' />
+            <format attr='enabled' id='road-polygon' value='true' />
+            <format attr='enabled' id='road-service-link-track' value='true' />
+            <format attr='enabled' id='road-street_limited' value='true' />
+            <format attr='enabled' id='road-street' value='true' />
+            <format attr='enabled' id='road-tertiary' value='true' />
+            <format attr='enabled' id='road-secondary' value='true' />
+            <format attr='enabled' id='road-primary' value='true' />
+            <format attr='enabled' id='road-trunk' value='true' />
+            <format attr='enabled' id='road-motorway' value='true' />
+            <format attr='enabled' id='road-rail' value='true' />
+            <format attr='enabled' id='road-rail-tracks' value='true' />
+            <format attr='enabled' id='bridge-street-low' value='true' />
+            <format attr='enabled' id='bridge-street_limited-low' value='true' />
+            <format attr='enabled' id='bridge-pedestrian-case' value='true' />
+            <format attr='enabled' id='bridge-service-link-track-case' value='true' />
+            <format attr='enabled' id='bridge-street_limited-case' value='true' />
+            <format attr='enabled' id='bridge-street-case' value='true' />
+            <format attr='enabled' id='bridge-tertiary-case' value='true' />
+            <format attr='enabled' id='bridge-secondary-case' value='true' />
+            <format attr='enabled' id='bridge-primary-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-case' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-case' value='true' />
+            <format attr='enabled' id='bridge-trunk-case' value='true' />
+            <format attr='enabled' id='bridge-motorway-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link' value='true' />
+            <format attr='enabled' id='bridge-motorway_link' value='true' />
+            <format attr='enabled' id='bridge-path' value='true' />
+            <format attr='enabled' id='bridge-pedestrian' value='true' />
+            <format attr='enabled' id='bridge-service-link-track' value='true' />
+            <format attr='enabled' id='bridge-street_limited' value='true' />
+            <format attr='enabled' id='bridge-street' value='true' />
+            <format attr='enabled' id='bridge-tertiary' value='true' />
+            <format attr='enabled' id='bridge-secondary' value='true' />
+            <format attr='enabled' id='bridge-primary' value='true' />
+            <format attr='enabled' id='bridge-trunk' value='true' />
+            <format attr='enabled' id='bridge-motorway' value='true' />
+            <format attr='enabled' id='bridge-rail' value='true' />
+            <format attr='enabled' id='bridge-rail-tracks' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-2-case' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-2-case' value='true' />
+            <format attr='enabled' id='bridge-trunk-2-case' value='true' />
+            <format attr='enabled' id='bridge-motorway-2-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-2' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-2' value='true' />
+            <format attr='enabled' id='bridge-trunk-2' value='true' />
+            <format attr='enabled' id='bridge-motorway-2' value='true' />
+            <format attr='enabled' id='road-shields-2-white' value='true' />
+            <format attr='enabled' id='road-shields-2-black' value='true' />
+            <format attr='enabled' id='road-shields-1-white' value='true' />
+            <format attr='enabled' id='road-shields-1-black' value='true' />
+            <format attr='enabled' id='road-label-small' value='true' />
+            <format attr='enabled' id='road-label-big' value='true' />
+            <format attr='enabled' id='place-village' value='true' />
+            <format attr='enabled' id='place-town' value='true' />
+            <format attr='enabled' id='place-islands' value='true' />
+            <format attr='enabled' id='place-islands-2' value='true' />
+            <format attr='enabled' id='place-city-sm' value='true' />
+            <format attr='enabled' id='place-city-md-s' value='true' />
+            <format attr='enabled' id='place-city-md-n' value='true' />
+            <format attr='enabled' id='place-city-lg-s' value='true' />
+            <format attr='enabled' id='place-city-lg-n' value='true' />
+            <format attr='enabled' id='place-capital-s' value='true' />
+            <format attr='enabled' id='place-capital-n' value='true' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='normal' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.1w57ij90zfln271ctkki619g3yky].[none:Calculation_1531223919081910283:nk]' value='Year '>
+              <formatted-text>
+                <run>Year </run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.1w57ij90zfln271ctkki619g3yky].[none:Month:nk]' value='Month&#10;'>
+              <formatted-text>
+                <run>Month&#10;</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.1w57ij90zfln271ctkki619g3yky].[none:Average Duration:qk]' value='Average Duration'>
+              <formatted-text>
+                <run>Average Duration</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes _.fcp.Layers.true...customization-axis='layer'>
+          <_.fcp.Layers.true...pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </_.fcp.Layers.true...pane>
+          <pane _.fcp.Layers.true...generated-title='top_500_april_2019.csv.Bixi Ride Route' id='0' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]' />
+              <size column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]' />
+              <lod column='[federated.1w57ij90zfln271ctkki619g3yky].[clct:Calculation_1531223919067344902:nk]' />
+              <lod column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Calculation_1531223919067500551:nk]' />
+              <lod column='[federated.1w57ij90zfln271ctkki619g3yky].[sum:Average Duration:qk]' />
+              <geometry column='[federated.1w57ij90zfln271ctkki619g3yky].[clct:Calculation_1531223919067344902:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.3827105760574341' />
+              </style-rule>
+            </style>
+          </pane>
+          <_.fcp.Layers.true...pane generated-title='stm_lignes_sig' hidden='true' id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1w57ij90zfln271ctkki619g3yky].[clct:Geometry:nk]' />
+              <lod column='[federated.1w57ij90zfln271ctkki619g3yky].[none:route_name:nk]' />
+              <geometry column='[federated.1w57ij90zfln271ctkki619g3yky].[clct:Geometry:nk]' />
+            </encodings>
+          </_.fcp.Layers.true...pane>
+        </panes>
+        <rows>[federated.1w57ij90zfln271ctkki619g3yky].[Latitude (generated)]</rows>
+        <cols>[federated.1w57ij90zfln271ctkki619g3yky].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{74BED01F-8A15-42F7-BDDE-1A99DA584870}' />
+    </worksheet>
+    <worksheet name='Annee 2019/2020'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='top_500_april_2019.csv+ (Multiple Connections)' name='federated.1w57ij90zfln271ctkki619g3yky' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1w57ij90zfln271ctkki619g3yky'>
+            <column caption='Average Duration1' datatype='real' name='[Average Duration]' role='measure' type='quantitative' />
+            <column caption='Origin Ride Points' datatype='spatial' name='[Calculation_1531223919067058180]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='MAKEPOINT([Start Latitude], [Start Longitude])' />
+            </column>
+            <column caption='Destination Ride Points' datatype='spatial' name='[Calculation_1531223919067213829]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='MAKEPOINT([End Latitude], [End Longitude])' />
+            </column>
+            <column caption='Bixi Ride Route' datatype='spatial' name='[Calculation_1531223919067344902]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='MAKELINE([Calculation_1531223919067058180], [Calculation_1531223919067213829])' />
+            </column>
+            <column caption='Bixi Ride Route Name' datatype='string' name='[Calculation_1531223919067500551]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Start Station]+&quot; - &quot;+[End Station]' />
+            </column>
+            <column caption='Year String' datatype='string' name='[Calculation_1531223919081910283]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='STR([Year])' />
+            </column>
+            <column aggregation='Avg' datatype='real' name='[End Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[End Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column datatype='string' name='[End Station]' role='dimension' type='nominal' />
+            <column datatype='spatial' name='[Geometry]' role='measure' type='nominal' />
+            <column caption='Month1' datatype='string' name='[Month]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Occurence]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Percentage Member]' role='measure' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[Start Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[Start Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column datatype='string' name='[Start Station]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Calculation_1531223919067344902]' derivation='Collect' name='[clct:Calculation_1531223919067344902:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Average Duration]' derivation='None' name='[none:Average Duration:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1531223919067500551]' derivation='None' name='[none:Calculation_1531223919067500551:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1531223919081910283]' derivation='None' name='[none:Calculation_1531223919081910283:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Month]' derivation='None' name='[none:Month:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Occurence]' derivation='None' name='[none:Occurence:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Percentage Member]' derivation='None' name='[none:Percentage Member:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[route_name]' derivation='None' name='[none:route_name:nk]' pivot='key' type='nominal' />
+            <column caption='Route Name' datatype='string' name='[route_name]' role='dimension' type='nominal' />
+            <column-instance column='[Average Duration]' derivation='Sum' name='[sum:Average Duration:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Average Duration:qk]' included-values='in-range'>
+            <min>75.41176471</min>
+            <max>3748.4666670000001</max>
+          </filter>
+          <filter class='categorical' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Calculation_1531223919081910283:nk]'>
+            <groupfilter function='level-members' level='[none:Calculation_1531223919081910283:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Month:nk]'>
+            <groupfilter function='level-members' level='[none:Month:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]' included-values='in-range'>
+            <min>10</min>
+            <max>1565</max>
+          </filter>
+          <filter class='quantitative' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]' included-values='in-range'>
+            <min>0.0</min>
+            <max>100.0</max>
+          </filter>
+          <filter class='categorical' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:route_name:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:route_name:nk]' member='&quot;bleue&quot;' />
+              <groupfilter function='member' level='[none:route_name:nk]' member='&quot;jaune&quot;' />
+              <groupfilter function='member' level='[none:route_name:nk]' member='&quot;orange&quot;' />
+              <groupfilter function='member' level='[none:route_name:nk]' member='&quot;verte&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:Calculation_1531223919081910283:nk]</column>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:Month:nk]</column>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]</column>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]</column>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:route_name:nk]</column>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:Average Duration:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1w57ij90zfln271ctkki619g3yky].[Longitude (generated)]' field-type='quantitative' max='-8171066.2019579737' min='-8212277.0205022264' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1w57ij90zfln271ctkki619g3yky].[Latitude (generated)]' field-type='quantitative' max='5714432.6133978618' min='5690956.0897247363' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]' max='100.0' min='0.0' palette='red_green_gold_diverging_10_0' type='interpolated' />
+            <encoding attr='size' field='[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]' field-type='quantitative' max-size='1' min-size='0' type='centersize' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+            <format attr='enabled' id='tunnel-service-link-track-case' value='true' />
+            <format attr='enabled' id='tunnel-street_limited-case' value='true' />
+            <format attr='enabled' id='tunnel-street-case' value='true' />
+            <format attr='enabled' id='tunnel-secondary-tertiary-case' value='true' />
+            <format attr='enabled' id='tunnel-primary-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk_link-case' value='true' />
+            <format attr='enabled' id='tunnel-motorway_link-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk-case' value='true' />
+            <format attr='enabled' id='tunnel-motorway-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk_link' value='true' />
+            <format attr='enabled' id='tunnel-motorway_link' value='true' />
+            <format attr='enabled' id='tunnel-service-link-track' value='true' />
+            <format attr='enabled' id='tunnel-street_limited' value='true' />
+            <format attr='enabled' id='tunnel-street' value='true' />
+            <format attr='enabled' id='tunnel-tertiary' value='true' />
+            <format attr='enabled' id='tunnel-secondary' value='true' />
+            <format attr='enabled' id='tunnel-primary' value='true' />
+            <format attr='enabled' id='tunnel-trunk' value='true' />
+            <format attr='enabled' id='tunnel-motorway' value='true' />
+            <format attr='enabled' id='road-street-low' value='true' />
+            <format attr='enabled' id='road-street_limited-low' value='true' />
+            <format attr='enabled' id='road-pedestrian-case' value='true' />
+            <format attr='enabled' id='road-service-link-track-case' value='true' />
+            <format attr='enabled' id='road-street_limited-case' value='true' />
+            <format attr='enabled' id='road-street-case' value='true' />
+            <format attr='enabled' id='road-tertiary-case' value='true' />
+            <format attr='enabled' id='road-secondary-case' value='true' />
+            <format attr='enabled' id='road-primary-case' value='true' />
+            <format attr='enabled' id='road-motorway_link-case' value='true' />
+            <format attr='enabled' id='road-trunk_link-case' value='true' />
+            <format attr='enabled' id='road-trunk-case' value='true' />
+            <format attr='enabled' id='road-motorway-case' value='true' />
+            <format attr='enabled' id='road-trunk_link' value='true' />
+            <format attr='enabled' id='road-motorway_link' value='true' />
+            <format attr='enabled' id='road-path' value='true' />
+            <format attr='enabled' id='road-pedestrian' value='true' />
+            <format attr='enabled' id='road-polygon' value='true' />
+            <format attr='enabled' id='road-service-link-track' value='true' />
+            <format attr='enabled' id='road-street_limited' value='true' />
+            <format attr='enabled' id='road-street' value='true' />
+            <format attr='enabled' id='road-tertiary' value='true' />
+            <format attr='enabled' id='road-secondary' value='true' />
+            <format attr='enabled' id='road-primary' value='true' />
+            <format attr='enabled' id='road-trunk' value='true' />
+            <format attr='enabled' id='road-motorway' value='true' />
+            <format attr='enabled' id='road-rail' value='true' />
+            <format attr='enabled' id='road-rail-tracks' value='true' />
+            <format attr='enabled' id='bridge-street-low' value='true' />
+            <format attr='enabled' id='bridge-street_limited-low' value='true' />
+            <format attr='enabled' id='bridge-pedestrian-case' value='true' />
+            <format attr='enabled' id='bridge-service-link-track-case' value='true' />
+            <format attr='enabled' id='bridge-street_limited-case' value='true' />
+            <format attr='enabled' id='bridge-street-case' value='true' />
+            <format attr='enabled' id='bridge-tertiary-case' value='true' />
+            <format attr='enabled' id='bridge-secondary-case' value='true' />
+            <format attr='enabled' id='bridge-primary-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-case' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-case' value='true' />
+            <format attr='enabled' id='bridge-trunk-case' value='true' />
+            <format attr='enabled' id='bridge-motorway-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link' value='true' />
+            <format attr='enabled' id='bridge-motorway_link' value='true' />
+            <format attr='enabled' id='bridge-path' value='true' />
+            <format attr='enabled' id='bridge-pedestrian' value='true' />
+            <format attr='enabled' id='bridge-service-link-track' value='true' />
+            <format attr='enabled' id='bridge-street_limited' value='true' />
+            <format attr='enabled' id='bridge-street' value='true' />
+            <format attr='enabled' id='bridge-tertiary' value='true' />
+            <format attr='enabled' id='bridge-secondary' value='true' />
+            <format attr='enabled' id='bridge-primary' value='true' />
+            <format attr='enabled' id='bridge-trunk' value='true' />
+            <format attr='enabled' id='bridge-motorway' value='true' />
+            <format attr='enabled' id='bridge-rail' value='true' />
+            <format attr='enabled' id='bridge-rail-tracks' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-2-case' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-2-case' value='true' />
+            <format attr='enabled' id='bridge-trunk-2-case' value='true' />
+            <format attr='enabled' id='bridge-motorway-2-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-2' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-2' value='true' />
+            <format attr='enabled' id='bridge-trunk-2' value='true' />
+            <format attr='enabled' id='bridge-motorway-2' value='true' />
+            <format attr='enabled' id='road-shields-2-white' value='true' />
+            <format attr='enabled' id='road-shields-2-black' value='true' />
+            <format attr='enabled' id='road-shields-1-white' value='true' />
+            <format attr='enabled' id='road-shields-1-black' value='true' />
+            <format attr='enabled' id='road-label-small' value='true' />
+            <format attr='enabled' id='road-label-big' value='true' />
+            <format attr='enabled' id='place-village' value='true' />
+            <format attr='enabled' id='place-town' value='true' />
+            <format attr='enabled' id='place-islands' value='true' />
+            <format attr='enabled' id='place-islands-2' value='true' />
+            <format attr='enabled' id='place-city-sm' value='true' />
+            <format attr='enabled' id='place-city-md-s' value='true' />
+            <format attr='enabled' id='place-city-md-n' value='true' />
+            <format attr='enabled' id='place-city-lg-s' value='true' />
+            <format attr='enabled' id='place-city-lg-n' value='true' />
+            <format attr='enabled' id='place-capital-s' value='true' />
+            <format attr='enabled' id='place-capital-n' value='true' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='normal' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.1w57ij90zfln271ctkki619g3yky].[none:Calculation_1531223919081910283:nk]' value='Year '>
+              <formatted-text>
+                <run>Year </run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.1w57ij90zfln271ctkki619g3yky].[none:Month:nk]' value='Month&#10;'>
+              <formatted-text>
+                <run>Month&#10;</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.1w57ij90zfln271ctkki619g3yky].[none:Average Duration:qk]' value='Average Duration'>
+              <formatted-text>
+                <run>Average Duration</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes _.fcp.Layers.true...customization-axis='layer'>
+          <_.fcp.Layers.true...pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </_.fcp.Layers.true...pane>
+          <pane _.fcp.Layers.true...generated-title='top_500_april_2019.csv.Bixi Ride Route' id='0' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]' />
+              <size column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]' />
+              <lod column='[federated.1w57ij90zfln271ctkki619g3yky].[clct:Calculation_1531223919067344902:nk]' />
+              <lod column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Calculation_1531223919067500551:nk]' />
+              <lod column='[federated.1w57ij90zfln271ctkki619g3yky].[sum:Average Duration:qk]' />
+              <geometry column='[federated.1w57ij90zfln271ctkki619g3yky].[clct:Calculation_1531223919067344902:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.3827105760574341' />
+              </style-rule>
+            </style>
+          </pane>
+          <_.fcp.Layers.true...pane generated-title='stm_lignes_sig' id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1w57ij90zfln271ctkki619g3yky].[clct:Geometry:nk]' />
+              <lod column='[federated.1w57ij90zfln271ctkki619g3yky].[none:route_name:nk]' />
+              <geometry column='[federated.1w57ij90zfln271ctkki619g3yky].[clct:Geometry:nk]' />
+            </encodings>
+          </_.fcp.Layers.true...pane>
+        </panes>
+        <rows>[federated.1w57ij90zfln271ctkki619g3yky].[Latitude (generated)]</rows>
+        <cols>[federated.1w57ij90zfln271ctkki619g3yky].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{8D907761-83CC-4EA9-9C0C-BE88553DA896}' />
+    </worksheet>
+    <worksheet name='Annee 2020 member'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='top_500_april_2019.csv+ (Multiple Connections)' name='federated.1w57ij90zfln271ctkki619g3yky' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1w57ij90zfln271ctkki619g3yky'>
+            <column caption='Average Duration1' datatype='real' name='[Average Duration]' role='measure' type='quantitative' />
+            <column caption='Origin Ride Points' datatype='spatial' name='[Calculation_1531223919067058180]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='MAKEPOINT([Start Latitude], [Start Longitude])' />
+            </column>
+            <column caption='Destination Ride Points' datatype='spatial' name='[Calculation_1531223919067213829]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='MAKEPOINT([End Latitude], [End Longitude])' />
+            </column>
+            <column caption='Bixi Ride Route' datatype='spatial' name='[Calculation_1531223919067344902]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='MAKELINE([Calculation_1531223919067058180], [Calculation_1531223919067213829])' />
+            </column>
+            <column caption='Bixi Ride Route Name' datatype='string' name='[Calculation_1531223919067500551]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Start Station]+&quot; - &quot;+[End Station]' />
+            </column>
+            <column caption='Year String' datatype='string' name='[Calculation_1531223919081910283]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='STR([Year])' />
+            </column>
+            <column aggregation='Avg' datatype='real' name='[End Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[End Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column datatype='string' name='[End Station]' role='dimension' type='nominal' />
+            <column datatype='spatial' name='[Geometry]' role='measure' type='nominal' />
+            <column caption='Month1' datatype='string' name='[Month]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Occurence]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Percentage Member]' role='measure' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[Start Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[Start Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column datatype='string' name='[Start Station]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Calculation_1531223919067344902]' derivation='Collect' name='[clct:Calculation_1531223919067344902:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Average Duration]' derivation='None' name='[none:Average Duration:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1531223919067500551]' derivation='None' name='[none:Calculation_1531223919067500551:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1531223919081910283]' derivation='None' name='[none:Calculation_1531223919081910283:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Month]' derivation='None' name='[none:Month:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Occurence]' derivation='None' name='[none:Occurence:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Percentage Member]' derivation='None' name='[none:Percentage Member:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[route_name]' derivation='None' name='[none:route_name:nk]' pivot='key' type='nominal' />
+            <column caption='Route Name' datatype='string' name='[route_name]' role='dimension' type='nominal' />
+            <column-instance column='[Average Duration]' derivation='Sum' name='[sum:Average Duration:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Average Duration:qk]' included-values='in-range'>
+            <min>75.41176471</min>
+            <max>3748.4666670000001</max>
+          </filter>
+          <filter class='categorical' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Calculation_1531223919081910283:nk]'>
+            <groupfilter function='member' level='[none:Calculation_1531223919081910283:nk]' member='&quot;2020&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Month:nk]'>
+            <groupfilter function='member' level='[none:Month:nk]' member='&quot;june&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]' included-values='in-range'>
+            <min>10</min>
+            <max>1565</max>
+          </filter>
+          <filter class='quantitative' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]' included-values='in-range'>
+            <min>63.700000000000003</min>
+            <max>100.0</max>
+          </filter>
+          <filter class='categorical' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:route_name:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:route_name:nk]' member='&quot;bleue&quot;' />
+              <groupfilter function='member' level='[none:route_name:nk]' member='&quot;jaune&quot;' />
+              <groupfilter function='member' level='[none:route_name:nk]' member='&quot;orange&quot;' />
+              <groupfilter function='member' level='[none:route_name:nk]' member='&quot;verte&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:Calculation_1531223919081910283:nk]</column>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:Month:nk]</column>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]</column>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]</column>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:route_name:nk]</column>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:Average Duration:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1w57ij90zfln271ctkki619g3yky].[Longitude (generated)]' field-type='quantitative' max='-8165302.8402569853' min='-8222794.0321535813' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1w57ij90zfln271ctkki619g3yky].[Latitude (generated)]' field-type='quantitative' max='5717878.0319531979' min='5684824.7882035552' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]' max='100.0' min='0.0' palette='red_green_gold_diverging_10_0' type='interpolated' />
+            <encoding attr='size' field='[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]' field-type='quantitative' max-size='1' min-size='0' type='centersize' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+            <format attr='enabled' id='tunnel-service-link-track-case' value='true' />
+            <format attr='enabled' id='tunnel-street_limited-case' value='true' />
+            <format attr='enabled' id='tunnel-street-case' value='true' />
+            <format attr='enabled' id='tunnel-secondary-tertiary-case' value='true' />
+            <format attr='enabled' id='tunnel-primary-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk_link-case' value='true' />
+            <format attr='enabled' id='tunnel-motorway_link-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk-case' value='true' />
+            <format attr='enabled' id='tunnel-motorway-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk_link' value='true' />
+            <format attr='enabled' id='tunnel-motorway_link' value='true' />
+            <format attr='enabled' id='tunnel-service-link-track' value='true' />
+            <format attr='enabled' id='tunnel-street_limited' value='true' />
+            <format attr='enabled' id='tunnel-street' value='true' />
+            <format attr='enabled' id='tunnel-tertiary' value='true' />
+            <format attr='enabled' id='tunnel-secondary' value='true' />
+            <format attr='enabled' id='tunnel-primary' value='true' />
+            <format attr='enabled' id='tunnel-trunk' value='true' />
+            <format attr='enabled' id='tunnel-motorway' value='true' />
+            <format attr='enabled' id='road-street-low' value='true' />
+            <format attr='enabled' id='road-street_limited-low' value='true' />
+            <format attr='enabled' id='road-pedestrian-case' value='true' />
+            <format attr='enabled' id='road-service-link-track-case' value='true' />
+            <format attr='enabled' id='road-street_limited-case' value='true' />
+            <format attr='enabled' id='road-street-case' value='true' />
+            <format attr='enabled' id='road-tertiary-case' value='true' />
+            <format attr='enabled' id='road-secondary-case' value='true' />
+            <format attr='enabled' id='road-primary-case' value='true' />
+            <format attr='enabled' id='road-motorway_link-case' value='true' />
+            <format attr='enabled' id='road-trunk_link-case' value='true' />
+            <format attr='enabled' id='road-trunk-case' value='true' />
+            <format attr='enabled' id='road-motorway-case' value='true' />
+            <format attr='enabled' id='road-trunk_link' value='true' />
+            <format attr='enabled' id='road-motorway_link' value='true' />
+            <format attr='enabled' id='road-path' value='true' />
+            <format attr='enabled' id='road-pedestrian' value='true' />
+            <format attr='enabled' id='road-polygon' value='true' />
+            <format attr='enabled' id='road-service-link-track' value='true' />
+            <format attr='enabled' id='road-street_limited' value='true' />
+            <format attr='enabled' id='road-street' value='true' />
+            <format attr='enabled' id='road-tertiary' value='true' />
+            <format attr='enabled' id='road-secondary' value='true' />
+            <format attr='enabled' id='road-primary' value='true' />
+            <format attr='enabled' id='road-trunk' value='true' />
+            <format attr='enabled' id='road-motorway' value='true' />
+            <format attr='enabled' id='road-rail' value='true' />
+            <format attr='enabled' id='road-rail-tracks' value='true' />
+            <format attr='enabled' id='bridge-street-low' value='true' />
+            <format attr='enabled' id='bridge-street_limited-low' value='true' />
+            <format attr='enabled' id='bridge-pedestrian-case' value='true' />
+            <format attr='enabled' id='bridge-service-link-track-case' value='true' />
+            <format attr='enabled' id='bridge-street_limited-case' value='true' />
+            <format attr='enabled' id='bridge-street-case' value='true' />
+            <format attr='enabled' id='bridge-tertiary-case' value='true' />
+            <format attr='enabled' id='bridge-secondary-case' value='true' />
+            <format attr='enabled' id='bridge-primary-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-case' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-case' value='true' />
+            <format attr='enabled' id='bridge-trunk-case' value='true' />
+            <format attr='enabled' id='bridge-motorway-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link' value='true' />
+            <format attr='enabled' id='bridge-motorway_link' value='true' />
+            <format attr='enabled' id='bridge-path' value='true' />
+            <format attr='enabled' id='bridge-pedestrian' value='true' />
+            <format attr='enabled' id='bridge-service-link-track' value='true' />
+            <format attr='enabled' id='bridge-street_limited' value='true' />
+            <format attr='enabled' id='bridge-street' value='true' />
+            <format attr='enabled' id='bridge-tertiary' value='true' />
+            <format attr='enabled' id='bridge-secondary' value='true' />
+            <format attr='enabled' id='bridge-primary' value='true' />
+            <format attr='enabled' id='bridge-trunk' value='true' />
+            <format attr='enabled' id='bridge-motorway' value='true' />
+            <format attr='enabled' id='bridge-rail' value='true' />
+            <format attr='enabled' id='bridge-rail-tracks' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-2-case' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-2-case' value='true' />
+            <format attr='enabled' id='bridge-trunk-2-case' value='true' />
+            <format attr='enabled' id='bridge-motorway-2-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-2' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-2' value='true' />
+            <format attr='enabled' id='bridge-trunk-2' value='true' />
+            <format attr='enabled' id='bridge-motorway-2' value='true' />
+            <format attr='enabled' id='road-shields-2-white' value='true' />
+            <format attr='enabled' id='road-shields-2-black' value='true' />
+            <format attr='enabled' id='road-shields-1-white' value='true' />
+            <format attr='enabled' id='road-shields-1-black' value='true' />
+            <format attr='enabled' id='road-label-small' value='true' />
+            <format attr='enabled' id='road-label-big' value='true' />
+            <format attr='enabled' id='place-village' value='true' />
+            <format attr='enabled' id='place-town' value='true' />
+            <format attr='enabled' id='place-islands' value='true' />
+            <format attr='enabled' id='place-islands-2' value='true' />
+            <format attr='enabled' id='place-city-sm' value='true' />
+            <format attr='enabled' id='place-city-md-s' value='true' />
+            <format attr='enabled' id='place-city-md-n' value='true' />
+            <format attr='enabled' id='place-city-lg-s' value='true' />
+            <format attr='enabled' id='place-city-lg-n' value='true' />
+            <format attr='enabled' id='place-capital-s' value='true' />
+            <format attr='enabled' id='place-capital-n' value='true' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='normal' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.1w57ij90zfln271ctkki619g3yky].[none:Calculation_1531223919081910283:nk]' value='Year '>
+              <formatted-text>
+                <run>Year </run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.1w57ij90zfln271ctkki619g3yky].[none:Month:nk]' value='Month&#10;'>
+              <formatted-text>
+                <run>Month&#10;</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.1w57ij90zfln271ctkki619g3yky].[none:Average Duration:qk]' value='Average Duration'>
+              <formatted-text>
+                <run>Average Duration</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes _.fcp.Layers.true...customization-axis='layer'>
+          <_.fcp.Layers.true...pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </_.fcp.Layers.true...pane>
+          <pane _.fcp.Layers.true...generated-title='top_500_april_2019.csv.Bixi Ride Route' id='0' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]' />
+              <size column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]' />
+              <lod column='[federated.1w57ij90zfln271ctkki619g3yky].[clct:Calculation_1531223919067344902:nk]' />
+              <lod column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Calculation_1531223919067500551:nk]' />
+              <lod column='[federated.1w57ij90zfln271ctkki619g3yky].[sum:Average Duration:qk]' />
+              <geometry column='[federated.1w57ij90zfln271ctkki619g3yky].[clct:Calculation_1531223919067344902:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.2728937864303589' />
+              </style-rule>
+            </style>
+          </pane>
+          <_.fcp.Layers.true...pane generated-title='stm_lignes_sig' hidden='true' id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1w57ij90zfln271ctkki619g3yky].[clct:Geometry:nk]' />
+              <lod column='[federated.1w57ij90zfln271ctkki619g3yky].[none:route_name:nk]' />
+              <geometry column='[federated.1w57ij90zfln271ctkki619g3yky].[clct:Geometry:nk]' />
+            </encodings>
+          </_.fcp.Layers.true...pane>
+        </panes>
+        <rows>[federated.1w57ij90zfln271ctkki619g3yky].[Latitude (generated)]</rows>
+        <cols>[federated.1w57ij90zfln271ctkki619g3yky].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{948BF1F5-C015-4320-B531-B1D5F052002F}' />
+    </worksheet>
+    <worksheet name='Annee 2020 non-member'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='top_500_april_2019.csv+ (Multiple Connections)' name='federated.1w57ij90zfln271ctkki619g3yky' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1w57ij90zfln271ctkki619g3yky'>
+            <column caption='Average Duration1' datatype='real' name='[Average Duration]' role='measure' type='quantitative' />
+            <column caption='Origin Ride Points' datatype='spatial' name='[Calculation_1531223919067058180]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='MAKEPOINT([Start Latitude], [Start Longitude])' />
+            </column>
+            <column caption='Destination Ride Points' datatype='spatial' name='[Calculation_1531223919067213829]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='MAKEPOINT([End Latitude], [End Longitude])' />
+            </column>
+            <column caption='Bixi Ride Route' datatype='spatial' name='[Calculation_1531223919067344902]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='MAKELINE([Calculation_1531223919067058180], [Calculation_1531223919067213829])' />
+            </column>
+            <column caption='Bixi Ride Route Name' datatype='string' name='[Calculation_1531223919067500551]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Start Station]+&quot; - &quot;+[End Station]' />
+            </column>
+            <column caption='Year String' datatype='string' name='[Calculation_1531223919081910283]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='STR([Year])' />
+            </column>
+            <column aggregation='Avg' datatype='real' name='[End Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[End Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column datatype='string' name='[End Station]' role='dimension' type='nominal' />
+            <column datatype='spatial' name='[Geometry]' role='measure' type='nominal' />
+            <column caption='Month1' datatype='string' name='[Month]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Occurence]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Percentage Member]' role='measure' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[Start Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[Start Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column datatype='string' name='[Start Station]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Calculation_1531223919067344902]' derivation='Collect' name='[clct:Calculation_1531223919067344902:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Average Duration]' derivation='None' name='[none:Average Duration:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1531223919067500551]' derivation='None' name='[none:Calculation_1531223919067500551:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1531223919081910283]' derivation='None' name='[none:Calculation_1531223919081910283:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Month]' derivation='None' name='[none:Month:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Occurence]' derivation='None' name='[none:Occurence:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Percentage Member]' derivation='None' name='[none:Percentage Member:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[route_name]' derivation='None' name='[none:route_name:nk]' pivot='key' type='nominal' />
+            <column caption='Route Name' datatype='string' name='[route_name]' role='dimension' type='nominal' />
+            <column-instance column='[Average Duration]' derivation='Sum' name='[sum:Average Duration:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Average Duration:qk]' included-values='in-range'>
+            <min>75.41176471</min>
+            <max>3748.4666670000001</max>
+          </filter>
+          <filter class='categorical' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Calculation_1531223919081910283:nk]'>
+            <groupfilter function='member' level='[none:Calculation_1531223919081910283:nk]' member='&quot;2020&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Month:nk]'>
+            <groupfilter function='member' level='[none:Month:nk]' member='&quot;june&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]' included-values='in-range'>
+            <min>10</min>
+            <max>1565</max>
+          </filter>
+          <filter class='quantitative' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]' included-values='in-range'>
+            <min>0.0</min>
+            <max>60.299999999999997</max>
+          </filter>
+          <filter class='categorical' column='[federated.1w57ij90zfln271ctkki619g3yky].[none:route_name:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:route_name:nk]' member='&quot;bleue&quot;' />
+              <groupfilter function='member' level='[none:route_name:nk]' member='&quot;jaune&quot;' />
+              <groupfilter function='member' level='[none:route_name:nk]' member='&quot;orange&quot;' />
+              <groupfilter function='member' level='[none:route_name:nk]' member='&quot;verte&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:Calculation_1531223919081910283:nk]</column>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:Month:nk]</column>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]</column>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]</column>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:route_name:nk]</column>
+            <column>[federated.1w57ij90zfln271ctkki619g3yky].[none:Average Duration:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1w57ij90zfln271ctkki619g3yky].[Longitude (generated)]' field-type='quantitative' max='-8169107.4188612327' min='-8217581.251113222' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1w57ij90zfln271ctkki619g3yky].[Latitude (generated)]' field-type='quantitative' max='5715314.4852529224' min='5685864.0454581762' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]' max='100.0' min='0.0' palette='red_green_gold_diverging_10_0' type='interpolated' />
+            <encoding attr='size' field='[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]' field-type='quantitative' max-size='1' min-size='0' type='centersize' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+            <format attr='enabled' id='tunnel-service-link-track-case' value='true' />
+            <format attr='enabled' id='tunnel-street_limited-case' value='true' />
+            <format attr='enabled' id='tunnel-street-case' value='true' />
+            <format attr='enabled' id='tunnel-secondary-tertiary-case' value='true' />
+            <format attr='enabled' id='tunnel-primary-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk_link-case' value='true' />
+            <format attr='enabled' id='tunnel-motorway_link-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk-case' value='true' />
+            <format attr='enabled' id='tunnel-motorway-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk_link' value='true' />
+            <format attr='enabled' id='tunnel-motorway_link' value='true' />
+            <format attr='enabled' id='tunnel-service-link-track' value='true' />
+            <format attr='enabled' id='tunnel-street_limited' value='true' />
+            <format attr='enabled' id='tunnel-street' value='true' />
+            <format attr='enabled' id='tunnel-tertiary' value='true' />
+            <format attr='enabled' id='tunnel-secondary' value='true' />
+            <format attr='enabled' id='tunnel-primary' value='true' />
+            <format attr='enabled' id='tunnel-trunk' value='true' />
+            <format attr='enabled' id='tunnel-motorway' value='true' />
+            <format attr='enabled' id='road-street-low' value='true' />
+            <format attr='enabled' id='road-street_limited-low' value='true' />
+            <format attr='enabled' id='road-pedestrian-case' value='true' />
+            <format attr='enabled' id='road-service-link-track-case' value='true' />
+            <format attr='enabled' id='road-street_limited-case' value='true' />
+            <format attr='enabled' id='road-street-case' value='true' />
+            <format attr='enabled' id='road-tertiary-case' value='true' />
+            <format attr='enabled' id='road-secondary-case' value='true' />
+            <format attr='enabled' id='road-primary-case' value='true' />
+            <format attr='enabled' id='road-motorway_link-case' value='true' />
+            <format attr='enabled' id='road-trunk_link-case' value='true' />
+            <format attr='enabled' id='road-trunk-case' value='true' />
+            <format attr='enabled' id='road-motorway-case' value='true' />
+            <format attr='enabled' id='road-trunk_link' value='true' />
+            <format attr='enabled' id='road-motorway_link' value='true' />
+            <format attr='enabled' id='road-path' value='true' />
+            <format attr='enabled' id='road-pedestrian' value='true' />
+            <format attr='enabled' id='road-polygon' value='true' />
+            <format attr='enabled' id='road-service-link-track' value='true' />
+            <format attr='enabled' id='road-street_limited' value='true' />
+            <format attr='enabled' id='road-street' value='true' />
+            <format attr='enabled' id='road-tertiary' value='true' />
+            <format attr='enabled' id='road-secondary' value='true' />
+            <format attr='enabled' id='road-primary' value='true' />
+            <format attr='enabled' id='road-trunk' value='true' />
+            <format attr='enabled' id='road-motorway' value='true' />
+            <format attr='enabled' id='road-rail' value='true' />
+            <format attr='enabled' id='road-rail-tracks' value='true' />
+            <format attr='enabled' id='bridge-street-low' value='true' />
+            <format attr='enabled' id='bridge-street_limited-low' value='true' />
+            <format attr='enabled' id='bridge-pedestrian-case' value='true' />
+            <format attr='enabled' id='bridge-service-link-track-case' value='true' />
+            <format attr='enabled' id='bridge-street_limited-case' value='true' />
+            <format attr='enabled' id='bridge-street-case' value='true' />
+            <format attr='enabled' id='bridge-tertiary-case' value='true' />
+            <format attr='enabled' id='bridge-secondary-case' value='true' />
+            <format attr='enabled' id='bridge-primary-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-case' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-case' value='true' />
+            <format attr='enabled' id='bridge-trunk-case' value='true' />
+            <format attr='enabled' id='bridge-motorway-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link' value='true' />
+            <format attr='enabled' id='bridge-motorway_link' value='true' />
+            <format attr='enabled' id='bridge-path' value='true' />
+            <format attr='enabled' id='bridge-pedestrian' value='true' />
+            <format attr='enabled' id='bridge-service-link-track' value='true' />
+            <format attr='enabled' id='bridge-street_limited' value='true' />
+            <format attr='enabled' id='bridge-street' value='true' />
+            <format attr='enabled' id='bridge-tertiary' value='true' />
+            <format attr='enabled' id='bridge-secondary' value='true' />
+            <format attr='enabled' id='bridge-primary' value='true' />
+            <format attr='enabled' id='bridge-trunk' value='true' />
+            <format attr='enabled' id='bridge-motorway' value='true' />
+            <format attr='enabled' id='bridge-rail' value='true' />
+            <format attr='enabled' id='bridge-rail-tracks' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-2-case' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-2-case' value='true' />
+            <format attr='enabled' id='bridge-trunk-2-case' value='true' />
+            <format attr='enabled' id='bridge-motorway-2-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-2' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-2' value='true' />
+            <format attr='enabled' id='bridge-trunk-2' value='true' />
+            <format attr='enabled' id='bridge-motorway-2' value='true' />
+            <format attr='enabled' id='road-shields-2-white' value='true' />
+            <format attr='enabled' id='road-shields-2-black' value='true' />
+            <format attr='enabled' id='road-shields-1-white' value='true' />
+            <format attr='enabled' id='road-shields-1-black' value='true' />
+            <format attr='enabled' id='road-label-small' value='true' />
+            <format attr='enabled' id='road-label-big' value='true' />
+            <format attr='enabled' id='place-village' value='true' />
+            <format attr='enabled' id='place-town' value='true' />
+            <format attr='enabled' id='place-islands' value='true' />
+            <format attr='enabled' id='place-islands-2' value='true' />
+            <format attr='enabled' id='place-city-sm' value='true' />
+            <format attr='enabled' id='place-city-md-s' value='true' />
+            <format attr='enabled' id='place-city-md-n' value='true' />
+            <format attr='enabled' id='place-city-lg-s' value='true' />
+            <format attr='enabled' id='place-city-lg-n' value='true' />
+            <format attr='enabled' id='place-capital-s' value='true' />
+            <format attr='enabled' id='place-capital-n' value='true' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='normal' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.1w57ij90zfln271ctkki619g3yky].[none:Calculation_1531223919081910283:nk]' value='Year '>
+              <formatted-text>
+                <run>Year </run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.1w57ij90zfln271ctkki619g3yky].[none:Month:nk]' value='Month&#10;'>
+              <formatted-text>
+                <run>Month&#10;</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.1w57ij90zfln271ctkki619g3yky].[none:Average Duration:qk]' value='Average Duration'>
+              <formatted-text>
+                <run>Average Duration</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes _.fcp.Layers.true...customization-axis='layer'>
+          <_.fcp.Layers.true...pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </_.fcp.Layers.true...pane>
+          <pane _.fcp.Layers.true...generated-title='top_500_april_2019.csv.Bixi Ride Route' id='0' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]' />
+              <size column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]' />
+              <lod column='[federated.1w57ij90zfln271ctkki619g3yky].[clct:Calculation_1531223919067344902:nk]' />
+              <lod column='[federated.1w57ij90zfln271ctkki619g3yky].[none:Calculation_1531223919067500551:nk]' />
+              <lod column='[federated.1w57ij90zfln271ctkki619g3yky].[sum:Average Duration:qk]' />
+              <geometry column='[federated.1w57ij90zfln271ctkki619g3yky].[clct:Calculation_1531223919067344902:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.3827105760574341' />
+              </style-rule>
+            </style>
+          </pane>
+          <_.fcp.Layers.true...pane generated-title='stm_lignes_sig' hidden='true' id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1w57ij90zfln271ctkki619g3yky].[clct:Geometry:nk]' />
+              <lod column='[federated.1w57ij90zfln271ctkki619g3yky].[none:route_name:nk]' />
+              <geometry column='[federated.1w57ij90zfln271ctkki619g3yky].[clct:Geometry:nk]' />
+            </encodings>
+          </_.fcp.Layers.true...pane>
+        </panes>
+        <rows>[federated.1w57ij90zfln271ctkki619g3yky].[Latitude (generated)]</rows>
+        <cols>[federated.1w57ij90zfln271ctkki619g3yky].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{C92A8712-21AB-4E30-8803-6AD58EB7FDD5}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='32'>
+    <window class='worksheet' name='Annee 2019/2020'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='26'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Calculation_1531223919081910283:nk]' type='filter' />
+            <card mode='dropdown' param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Month:nk]' type='filter' />
+            <card param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Average Duration:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]' type='color' />
+            <card param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F70C6D5D-2606-4808-92FD-F7309876DB35}' />
+    </window>
+    <window class='worksheet' name='Annee 2019 member'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='27'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Calculation_1531223919081910283:nk]' type='filter' />
+            <card mode='dropdown' param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Month:nk]' type='filter' />
+            <card param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Average Duration:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]' type='color' />
+            <card param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B23BB005-7E8A-49F1-A2C6-530D85C511ED}' />
+    </window>
+    <window class='worksheet' name='Annee 2019 non-member'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='27'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Calculation_1531223919081910283:nk]' type='filter' />
+            <card mode='dropdown' param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Month:nk]' type='filter' />
+            <card param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Average Duration:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]' type='color' />
+            <card param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EA938BF1-65F8-4873-BE40-E21B49CCE73D}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Annee 2020 member'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='26'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Calculation_1531223919081910283:nk]' type='filter' />
+            <card mode='dropdown' param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Month:nk]' type='filter' />
+            <card param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Average Duration:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]' type='color' />
+            <card param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1D0BCBF4-1FEA-4E25-A555-298004C4475B}' />
+    </window>
+    <window class='worksheet' name='Annee 2020 non-member'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='26'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Calculation_1531223919081910283:nk]' type='filter' />
+            <card mode='dropdown' param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Month:nk]' type='filter' />
+            <card param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Average Duration:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Percentage Member:qk]' type='color' />
+            <card param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.1w57ij90zfln271ctkki619g3yky].[none:Occurence:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E8AC8C8B-F075-441F-857C-A4E570BA61B8}' />
+    </window>
+  </windows>
+</workbook>
